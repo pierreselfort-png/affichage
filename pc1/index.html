@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Affichage PC1</title>
+  <style>
+    body{margin:0;font-family:Arial;background:#111;color:#fff;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}
+    .box{max-width:1100px;padding:40px}
+    h1{font-size:64px;margin:0 0 10px}
+    p{font-size:36px;margin:0;opacity:.9}
+    .small{margin-top:18px;font-size:18px;opacity:.6}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1 id="titre">Chargement...</h1>
+    <p id="message"></p>
+    <div class="small" id="maj"></div>
+  </div>
+
+  <script>
+    async function refresh(){
+      // cache-busting pour forcer la MAJ
+      const url = "data.json?ts=" + Date.now();
+      const r = await fetch(url, {cache:"no-store"});
+      const data = await r.json();
+      document.getElementById("titre").textContent = data.titre || "";
+      document.getElementById("message").textContent = data.message || "";
+      document.getElementById("maj").textContent = "Dernière MAJ: " + new Date().toLocaleString();
+    }
+    refresh();
+    setInterval(refresh, 5000); // MAJ toutes les 5 secondes
+  </script>
+</body>
+</html>
