@@ -1,19 +1,4 @@
-<script>
-const SHEET_ID = "ID_DU_SHEET";
-const PC_ID = "pc1"; // à changer pour pc2, pc3...
-
-async function refresh(){
-  const url = `https://opensheet.elk.sh/${SHEET_ID}/Feuille1`;
-  const r = await fetch(url, { cache: "no-store" });
-  const rows = await r.json();
-
-  const row = rows.find(r => r.id === PC_ID);
-  if(!row) return;
-
-  document.getElementById("titre").textContent = row.titre;
-  document.getElementById("message").textContent = row.message;
+{
+  "titre": "PC1",
+  "message": "Message de départ pour l'écran 1"
 }
-
-refresh();
-setInterval(refresh, 5000);
-</script>
