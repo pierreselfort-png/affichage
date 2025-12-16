@@ -30,40 +30,23 @@ async function refresh() {
   try {
     const url = `https://opensheet.elk.sh/${SHEET_ID}/1`;
     const r = await fetch(url, { cache: "no-store" });
-
-    if (!r.ok) {
-      throw new Error("Erreur réseau");
-    }
-
     const rows = await r.json();
 
-    if (!Array.isArray(rows)) {
-      throw new Error("Données invalides");
-    }
-
     const row = rows.find(r => r.id === PC_ID);
+    if (!row) return;
 
-    if (!row) {
-      titreEl.textContent = "Erreur";
-      messageEl.textContent = "PC_ID introuvable dans le Sheet";
-      return;
-    }
-
-    titreEl.textContent = row.titre || "";
-    messageEl.textContent = row.message || "";
-
+    titreEl.textContent = row.titre;
+    messageEl.textContent = row.message;
   } catch (e) {
     titreEl.textContent = "Connexion…";
-    messageEl.textContent = "En attente de Google Sheets";
+    messageEl.textContent = "En attente des données";
   }
 }
 
-// première tentative
 refresh();
-
-// refresh lent (important pour le quota)
-setInterval(refresh, 60000); // 60 secondes
+setInterval(refresh, 60000); // 1 min (safe pour les quotas)
 </script>
+
 
 
 </body>
