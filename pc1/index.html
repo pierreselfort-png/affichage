@@ -19,18 +19,25 @@
     <div class="small" id="maj"></div>
   </div>
 
-  <script>
-    async function refresh(){
-      // cache-busting pour forcer la MAJ
-      const url = "data.json?ts=" + Date.now();
-      const r = await fetch(url, {cache:"no-store"});
-      const data = await r.json();
-      document.getElementById("titre").textContent = data.titre || "";
-      document.getElementById("message").textContent = data.message || "";
-      document.getElementById("maj").textContent = "Dernière MAJ: " + new Date().toLocaleString();
-    }
-    refresh();
-    setInterval(refresh, 5000); // MAJ toutes les 5 secondes
-  </script>
+<script>
+const SHEET_ID = "COLLE_ICI_TON_ID_DE_SHEET";
+const PC_ID = "pc1";
+
+async function refresh(){
+  const url = `https://opensheet.elk.sh/${SHEET_ID}/Feuille1`;
+  const r = await fetch(url, { cache: "no-store" });
+  const rows = await r.json();
+
+  const row = rows.find(r => r.id === PC_ID);
+  if(!row) return;
+
+  document.getElementById("titre").textContent = row.titre;
+  document.getElementById("message").textContent = row.message;
+}
+
+refresh();
+setInterval(refresh, 5000);
+</script>
+
 </body>
 </html>
