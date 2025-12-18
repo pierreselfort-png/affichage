@@ -132,11 +132,14 @@ let rows = [];
 
 async function loadSheet() {
   try {
+    const selectedId = pcSelect.value; // 🔹 mémoriser sélection actuelle
+
     const url = `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_INDEX}`;
     const r = await fetch(url, { cache: "no-store" });
     rows = await r.json();
 
     pcSelect.innerHTML = "";
+
     rows.forEach(r => {
       const opt = document.createElement("option");
       opt.value = r.id;
@@ -144,15 +147,20 @@ async function loadSheet() {
       pcSelect.appendChild(opt);
     });
 
-    if (rows.length > 0) {
-      pcSelect.value = rows[0].id;
-      updateMessage();
+    // 🔹 Restaurer la sélection si elle existe encore
+    const stillExists = rows.some(r => r.id === selectedId);
+
+    if (stillExists) {
+      pcSelect.value = selectedId;
+    } else if (rows.length > 0) {
+      pcSelect.value = rows[0].id; // fallback
     }
+
+    updateMessage();
   } catch {
     messageEl.textContent = "Connexion impossible";
   }
 }
-
 function updateMessage() {
   const id = pcSelect.value;
   const row = rows.find(r => r.id === id);
