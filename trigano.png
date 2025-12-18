@@ -1,0 +1,1158 @@
+<!doctype html>
+<html itemscope itemtype="https://schema.org/WebPage" class="no_js" lang="fr-FR">
+
+<head>
+	<meta charset="UTF-8"/>
+	<!--
+
+	⠀⠛⣿⣿⠟⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⣤⠶⣶⣦⠀⢠⣶⠶⣶⣤⠀⠀⠀⠀⠀⠀⢠⠋⣿⣿⠄⠀⠀⢀⣶⣶⠄⣠⣶⣶⠄⠀⣴⣶⣦⠀⣤⣶⣶⠀⣤⣶⣦⠀⣤⣶⣦⠀⠀⠀⣤⠶⣶⣠⣶⠀⠀⣼⣿⠀⠀⣠⡶⠶⣶⣄⠀⠀⠀
+	⠀⢠⣿⡿⠀⠀⠀⠀⠀⢠⣿⠁⣀⠾⠋⠀⢿⣷⣄⠈⠁⠀⠀⠀⠀⠀⢠⣏⣀⣘⣿⣷⠀⠀⠁⣼⣿⡴⠀⣰⣿⠀⠈⢀⣿⠁⠀⠀⣿⡏⠋⠀⣿⡟⠋⠀⣾⡿⠀⢀⣿⠁⠀⠀⣿⡏⠀⠀⣿⡏⠀⠀⣿⣷⡀⠈⠀⠀⠀⠀
+	⠀⣼⣿⠇⠀⠀⢠⣿⠀⣿⣿⠀⠀⠀⠀⣀⣄⠈⢻⣿⠀⠀⠀⠀⠀⣠⡟⠀⠀⠀⣿⣿⠀⠀⠀⣿⡿⠀⢀⣿⠇⠀⠀⣿⡟⠀⠀⢰⣿⠋⠀⣰⣿⠋⠀⣰⣿⠀⠀⣿⣿⠀⣠⣡⣿⠀⠀⢰⣿⠀⠀⣄⡀⠈⢿⣷⠀⣤⣄⠀
+	⠛⠛⠛⠛⠛⠛⠛⠃⠀⠈⠛⠿⠛⠁⠀⠙⠛⠶⠛⠁⠀⠀⠀⠀⠛⠛⠛⠂⠀⠛⠛⠛⠛⠂⠘⠛⠃⠀⠘⠻⠛⠀⠀⠛⠛⠁⠀⠛⠛⠀⠀⠛⠛⠀⠀⠛⠻⠋⠀⠙⠻⠛⠀⠛⠿⠋⠀⠙⠿⠛⠀⠙⠻⠒⠛⠁⠀⠻⠛⠀
+
+	-->
+
+	<!-- JS checker -->
+	<script>document.documentElement.className = document.documentElement.className.replace( /\bno_js\b/, '' ) + ' js';</script>
+
+	<title>Trigano</title>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" href="https://trigano.com/en/" hreflang="en" />
+<link rel="alternate" href="https://trigano.com/de/" hreflang="de" />
+<link rel="alternate" href="https://trigano.com/fr/" hreflang="fr" />
+<link rel="alternate" href="https://trigano.com/it/" hreflang="it" />
+<link rel="alternate" href="https://trigano.com/es/" hreflang="es" />
+<link rel="alternate" href="https://trigano.com/" hreflang="x-default" />
+<meta name="dc.title" content="Trigano">
+<meta name="dc.description" content="Trigano est une société européenne spécialisée dans la conception, la fabrication et la distribution de camping-cars, caravanes, et résidences mobiles.">
+<meta name="dc.relation" content="https://trigano.com/fr/">
+<meta name="dc.source" content="https://trigano.com/">
+<meta name="dc.language" content="fr_FR">
+<meta name="description" content="Trigano est une société européenne spécialisée dans la conception, la fabrication et la distribution de camping-cars, caravanes, et résidences mobiles.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://trigano.com/fr/">
+<script id="website-schema" type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Trigano","alternateName":"Trigano","description":"Constructeur de libert\u00e9s","url":"https:\/\/trigano.com"}</script>
+<meta property="og:url" content="https://trigano.com/fr/">
+<meta property="og:site_name" content="Trigano">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Trigano">
+<meta property="og:description" content="Trigano est une société européenne spécialisée dans la conception, la fabrication et la distribution de camping-cars, caravanes, et résidences mobiles.">
+<meta property="og:image" content="https://trigano.com/wp-content/uploads/2023/02/trigano-home-camping-car-e1676887077776.jpg">
+<meta property="og:image:secure_url" content="https://trigano.com/wp-content/uploads/2023/02/trigano-home-camping-car-e1676887077776.jpg">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1366">
+<meta property="og:image:alt" content="Trigano Home">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Trigano">
+<meta name="twitter:description" content="Trigano est une société européenne spécialisée dans la conception, la fabrication et la distribution de camping-cars, caravanes, et résidences mobiles.">
+<meta name="twitter:image" content="https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1024x482.jpg">
+<link rel='dns-prefetch' href='//fonts.bunny.net' />
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","name":"Trigano","url":"https:\/\/trigano.com","alternateName":"Trigano","description":"Leader europ\u00e9en des v\u00e9hicules de loisirs, Trigano vous accompagne dans vos voyages","logo":"https:\/\/trigano.com\/wp-content\/uploads\/brands\/logo-trigano.svg","sameAs":["https:\/\/www.linkedin.com\/company\/trigano\/"],"vatID":"FR67722049459","contactPoint":[{"@type":"ContactPoint","email":"contact@trigano.com","contactOption":"TollFree","contactType":"customer support"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"AutomotiveBusiness","image":"https:\/\/trigano.com\/wp-content\/uploads\/brands\/logo-trigano.svg","@id":"https:\/\/trigano.com","name":"Trigano","url":"contact@trigano.com","telephone":"01 44 52 16 20","address":{"@type":"PostalAddress","streetAddress":"100 rue Petit","addressLocality":"Paris","addressRegion":"\u00cele-de-France","postalCode":"75019","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":"48.8860035","longitude":"2.3882464"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","opens":"08:00:00","closes":"19:30:00","dayOfWeek":"https:\/\/schema.org\/Monday"},{"@type":"OpeningHoursSpecification","opens":"08:00:00","closes":"19:30:00","dayOfWeek":"https:\/\/schema.org\/Tuesday"},{"@type":"OpeningHoursSpecification","opens":"08:00:00","closes":"19:30:00","dayOfWeek":"https:\/\/schema.org\/Wednesday"},{"@type":"OpeningHoursSpecification","opens":"08:00:00","closes":"19:30:00","dayOfWeek":"https:\/\/schema.org\/Thursday"},{"@type":"OpeningHoursSpecification","opens":"08:00:00","closes":"19:30:00","dayOfWeek":"https:\/\/schema.org\/Friday"},{"@type":"OpeningHoursSpecification","opens":"08:00:00","closes":"19:30:00","dayOfWeek":"https:\/\/schema.org\/Saturday"}]}</script>
+<meta name="google-site-verification" content="_YjZwR4fYWTZoRgJoirxyHIbxhftfI_JkURegOrSo_8">
+<link rel="preconnect" href="https://fonts.bunny.net" crossorigin><style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='safe-svg-svg-icon-style-inline-css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='wpseopress-local-business-style-inline-css'>
+span.wp-block-wpseopress-local-business-field{margin-right:8px}
+
+</style>
+<style id='wpseopress-table-of-contents-style-inline-css'>
+.wp-block-wpseopress-table-of-contents li.active>a{font-weight:bold}
+
+</style>
+<link rel='stylesheet' id='theme-styles-css' href='https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/css/styles.min.css?ver=0.5.0' media='screen' />
+<link rel='stylesheet' id='theme-print-css' href='https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/css/print.min.css?ver=0.5.0' media='print' />
+<link rel='stylesheet preconnect' id='fonts-css' href='https://fonts.bunny.net/css2?family=Inter%3Awght%40100..900&#038;display=swap&#038;ver=0.5.0' media='screen' />
+
+<link rel='shortlink' href='https://trigano.com/' />
+<link rel="icon" href="https://trigano.com/wp-content/uploads/2023/01/cropped-favicon-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://trigano.com/wp-content/uploads/2023/01/cropped-favicon-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://trigano.com/wp-content/uploads/2023/01/cropped-favicon-2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://trigano.com/wp-content/uploads/2023/01/cropped-favicon-2-270x270.png" />
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#ce112d">
+	<link rel="preconnect" href="https://axept.io" crossorigin>
+	<link rel="preconnect" href="https://api.axept.io" crossorigin>
+
+		<!-- Google Tag Manager -->
+	<script>( function( w, d, s, l, i ) {
+			w[ l ] = w[ l ] || [];
+			w[ l ].push( {
+				'gtm.start':
+					new Date().getTime(),
+				event: 'gtm.js',
+			} );
+			var f = d.getElementsByTagName( s )[ 0 ],
+				j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore( j, f );
+		} )( window, document, 'script', 'dataLayer', 'GTM-TV4WWK65' );</script>
+	<!-- End Google Tag Manager -->
+<meta name="generator" content="WP Rocket 3.19.1.2" data-wpr-features="wpr_minify_js wpr_minify_css wpr_preload_links" /></head>
+
+<body class="home wp-singular page-template-default page page-id-2028 wp-theme-triganoapp wp-child-theme-triganoapp-child">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV4WWK65"
+				height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="svg">
+	<svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-arrow" viewBox="0 0 16 15.93"><path d="m8 0 8 7.96-8 7.96-1.43-1.39 5.6-5.57H0V6.97h12.17l-5.6-5.58L8 0Z"/></symbol><symbol id="icon-close" viewBox="0 0 20 20"><path d="m6.4 15 3.6-3.6 3.6 3.6 1.4-1.4-3.6-3.6L15 6.4 13.6 5 10 8.6 6.4 5 5 6.4 8.6 10 5 13.6 6.4 15z"/><path d="M19.21 6.1a9.962 9.962 0 0 0-2.14-3.17c-.9-.9-1.96-1.61-3.17-2.14C12.68.27 11.38 0 10 0S7.32.26 6.1.79c-1.22.53-2.28 1.24-3.17 2.14-.9.9-1.61 1.96-2.14 3.17C.26 7.32 0 8.62 0 10s.26 2.68.79 3.9c.52 1.22 1.24 2.28 2.14 3.18s1.96 1.61 3.17 2.14c1.22.53 2.52.79 3.9.79s2.68-.26 3.9-.79c1.22-.52 2.28-1.24 3.17-2.14s1.61-1.96 2.14-3.18c.53-1.22.79-2.52.79-3.9s-.26-2.68-.79-3.9Zm-3.54 9.58c-1.55 1.55-3.44 2.33-5.67 2.33s-4.12-.78-5.68-2.33C2.77 14.13 2 12.24 2 10.01s.77-4.12 2.32-5.67S7.76 2.01 10 2.01s4.12.77 5.67 2.33C17.22 5.89 18 7.78 18 10.01s-.78 4.12-2.33 5.67Z"/></symbol><symbol id="icon-download" viewBox="0 0 12 13"><path d="M1.5 13c-.42 0-.77-.15-1.06-.44-.29-.29-.44-.65-.44-1.06V10h1.5v1.5h9V10H12v1.5c0 .42-.15.77-.44 1.06-.29.29-.65.44-1.06.44h-9ZM6 10 2 6l1.06-1.06 2.19 2.19V0h1.5v7.12l2.19-2.19L10 5.99l-4 4Z"/></symbol><symbol id="icon-external" viewBox="0 0 14.33 14.33"><path d="M1.73 14.33c-.49 0-.9-.17-1.23-.5-.33-.33-.5-.74-.5-1.23V1.73C0 1.24.17.83.5.5.83.17 1.24 0 1.73 0h5.44v1.73H1.73v10.88h10.88V7.17h1.73v5.44c0 .49-.17.9-.5 1.23-.33.33-.74.5-1.23.5H1.73Z"/><path d="M5.38 10.17 4.17 8.96l7.23-7.23H9.17V0h5.16v5.17H12.6V2.94l-7.22 7.23z"/></symbol><symbol id="icon-file" viewBox="0 0 12 16"><path d="M4.5 16c-1.28 0-2.35-.45-3.21-1.36-.86-.91-1.29-2-1.29-3.26V3.27C0 2.37.32 1.6.95.96 1.58.32 2.35 0 3.25 0s1.7.34 2.32 1.01c.62.67.93 1.47.93 2.39v6.35H5V3.27c0-.49-.17-.9-.51-1.25-.34-.35-.75-.52-1.24-.52s-.9.18-1.24.53c-.34.35-.51.78-.51 1.28v8.21c0 .83.3 1.54.89 2.11.59.58 1.3.86 2.11.86.46 0 .88-.1 1.26-.29.38-.19.71-.45.99-.77v1.94a5 5 0 0 1-1.06.46c-.38.11-.77.17-1.19.17Z"/><path d="M8.25 15v-2.25H6v-1.5h2.25V9h1.5v2.25H12v1.5H9.75V15h-1.5zM4.5 11.52V13c-.58 0-1.06-.21-1.44-.62-.37-.42-.56-.9-.56-1.46V3H4v8.02c0 .14.05.26.15.35s.22.15.35.15ZM7.5 3H9v4.5H7.5z"/></symbol><symbol id="icon-language" viewBox="0 0 20 20"><path d="M10 20c-1.38 0-2.68-.26-3.9-.79a9.853 9.853 0 0 1-3.17-2.14c-.9-.9-1.61-1.96-2.14-3.18C.26 12.67 0 11.37 0 9.99s.26-2.68.79-3.9c.52-1.22 1.24-2.28 2.14-3.17S4.89 1.31 6.1.78C7.32.26 8.62-.01 10-.01s2.68.26 3.9.79c1.22.53 2.27 1.24 3.18 2.14.9.9 1.61 1.96 2.14 3.17.53 1.22.79 2.52.79 3.9s-.26 2.68-.79 3.9a10.12 10.12 0 0 1-2.14 3.18c-.9.9-1.96 1.61-3.18 2.14-1.22.53-2.52.79-3.9.79Zm-1-2.05V16c-.55 0-1.02-.2-1.41-.59C7.2 15.02 7 14.55 7 14v-1L2.2 8.2c-.05.3-.1.6-.14.9-.04.3-.06.6-.06.9 0 2.02.66 3.78 1.99 5.3 1.32 1.52 3 2.4 5.01 2.65Zm6.9-2.55c.33-.37.63-.76.9-1.19.27-.42.49-.87.66-1.32A8.07 8.07 0 0 0 18 10c0-1.63-.45-3.12-1.36-4.47A7.71 7.71 0 0 0 13 2.6V3c0 .55-.2 1.02-.59 1.41-.39.39-.86.59-1.41.59H9v2c0 .28-.1.52-.29.71S8.28 8 8 8H6v2h6c.28 0 .52.1.71.29.19.19.29.43.29.71v3h1c.43 0 .82.13 1.17.39s.59.6.73 1.01Z"/></symbol><symbol id="icon-loader" viewBox="0 0 22 22"><path d="M11 6c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1s1 .45 1 1v4c0 .55-.45 1-1 1ZM11 22c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1s1 .45 1 1v4c0 .55-.45 1-1 1ZM6.76 7.76c-.26 0-.51-.1-.71-.29L3.22 4.64a.996.996 0 1 1 1.41-1.41l2.83 2.83a.996.996 0 0 1-.71 1.7ZM18.07 19.07c-.26 0-.51-.1-.71-.29l-2.83-2.83a.996.996 0 1 1 1.41-1.41l2.83 2.83a.996.996 0 0 1-.71 1.7ZM5 12H1c-.55 0-1-.45-1-1s.45-1 1-1h4c.55 0 1 .45 1 1s-.45 1-1 1ZM21 12h-4c-.55 0-1-.45-1-1s.45-1 1-1h4c.55 0 1 .45 1 1s-.45 1-1 1ZM3.93 19.07c-.26 0-.51-.1-.71-.29a.996.996 0 0 1 0-1.41l2.83-2.83a.996.996 0 1 1 1.41 1.41l-2.83 2.83c-.2.2-.45.29-.71.29ZM15.24 7.76c-.26 0-.51-.1-.71-.29a.996.996 0 0 1 0-1.41l2.83-2.83a.996.996 0 1 1 1.41 1.41l-2.83 2.83c-.2.2-.45.29-.71.29Z"/></symbol><symbol id="icon-pin" viewBox="0 0 19.15 24.02"><path d="m9.57 24.02-.67-.61c-.23-.21-.51-.46-.82-.77-1.19-1.14-2.3-2.33-3.29-3.52-1.39-1.67-2.5-3.29-3.29-4.83C.5 12.38 0 10.6 0 9c0-4.96 4.3-9 9.57-9s9.57 4.04 9.57 9c0 1.6-.5 3.38-1.5 5.3-.79 1.53-1.9 3.16-3.29 4.83-.99 1.19-2.1 2.37-3.29 3.52-.32.3-.59.56-.82.77l-.67.61ZM9.57 2C5.39 2 1.99 5.14 1.99 9c0 1.27.43 2.75 1.27 4.38.73 1.41 1.75 2.91 3.05 4.47 1.17 1.41 2.35 2.6 3.14 3.35.04.04.08.07.11.11.04-.03.07-.07.11-.11.78-.75 1.96-1.94 3.14-3.35 1.3-1.56 2.32-3.06 3.05-4.47.84-1.63 1.27-3.1 1.27-4.38 0-3.86-3.4-7-7.57-7Z"/><path d="M9.57 12c-1.76 0-3.19-1.35-3.19-3s1.43-3 3.19-3 3.19 1.35 3.19 3-1.43 3-3.19 3Zm0-4c-.74 0-1.19.52-1.19 1s.46 1 1.19 1 1.19-.52 1.19-1-.46-1-1.19-1Z"/></symbol><symbol id="icon-reset" viewBox="0 0 28.76 28.76"><path d="m28.57 15.11-5.39-5.39-5.39 5.39 1.41 1.41 3.16-3.16c.73 7.55-8.2 12.03-13.66 6.67-5.02-4.94-1.38-13.72 5.66-13.66v-2c-8.8-.08-13.35 10.9-7.07 17.07 6.49 6.49 17.61 1.43 17.07-7.72l2.79 2.79 1.41-1.41Z"/></symbol><symbol id="icon-search" viewBox="0 0 20.71 20.71"><path d="m20.71 19.29-4.68-4.68A8.963 8.963 0 0 0 18 9c0-4.96-4.04-9-9-9S0 4.04 0 9s4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l4.68 4.68 1.41-1.41ZM2 9c0-3.86 3.14-7 7-7s7 3.14 7 7-3.14 7-7 7-7-3.14-7-7Z"/></symbol><symbol id="logo" viewBox="0 0 434 168"><path d="M434 0H0v168h434V0Z"/><path fill="#fff" d="M29 108.47h11.68v39.54h20.99v-39.54h11.68V89.24H29v19.23zM131 89.24h21.32v58.77H131zM126.61 109.05c0-12.57-7.99-19.81-23.6-19.81H76.62v58.77h20.59v-19.4l10.21 19.4h23.52l-15.6-23.92c6.78-.82 11.26-6.66 11.26-15.04Zm-26.13 6.82h-3.27v-11.52h3.27c4.08 0 6.21 2.22 6.21 5.84s-2.21 5.68-6.21 5.68ZM219.34 116.74c.03-1.46-.03-2.92-.17-4.38h-32.5v13.91h9.21c-.5 3.07-3.13 4.9-7.25 4.9-6.75 0-10.78-4.82-10.78-13.17s4.28-13.24 10.29-13.24c1.71-.03 3.39.4 4.87 1.26s2.7 2.11 3.53 3.61l18.84-7.03c-5.92-10.19-15.55-15.65-27.56-15.65a31.226 31.226 0 0 0-22.55 8.86 30.562 30.562 0 0 0-8.89 22.19c-.1 4.11.63 8.21 2.16 12.02 1.53 3.82 3.82 7.28 6.72 10.17 3.3 3.08 7.19 5.44 11.44 6.96 4.24 1.51 8.75 2.13 13.24 1.83 4.49-.3 8.87-1.53 12.88-3.59 4.01-2.07 7.55-4.94 10.41-8.43 4.11-5.46 6.09-12.09 6.09-20.21ZM402.55 105.7c-1.58-3.8-3.89-7.25-6.81-10.14-6.43-5.76-14.74-8.95-23.34-8.95s-16.92 3.18-23.34 8.95a31.01 31.01 0 0 0-6.8 10.11c-1.58 3.79-2.39 7.86-2.39 11.97s.81 8.18 2.39 11.97a31.01 31.01 0 0 0 6.8 10.11c6.39 5.8 14.69 9.01 23.29 9.03s16.91-3.17 23.32-8.95a30.93 30.93 0 0 0 6.85-10.12 31.09 31.09 0 0 0 2.42-11.99c0-4.12-.8-8.2-2.38-12.01Zm-30.15 23.17c-5.97 0-10.32-4.31-10.32-11.19s4.36-11.27 10.32-11.27 10.22 4.4 10.22 11.27-4.25 11.19-10.22 11.19ZM233.85 89.24l-20.83 58.77h22.54l1.8-7.4h15.85l1.87 7.4h22.55l-20.42-58.77h-23.36Zm7.02 37.4 1.8-6.66c1.26-4.2 2.06-8.53 2.37-12.91h.41c.31 4.38 1.1 8.71 2.37 12.91l1.79 6.66h-8.74ZM316.45 110.61c-.03 3.14.19 6.27.66 9.37l-18.14-30.74h-20.59v58.77h20.26V126.8c.02-3.11-.2-6.21-.65-9.28l17.96 30.49h20.75V89.24h-20.25v21.37Z"/></symbol><symbol id="logo_color" viewBox="0 0 434 168"><path id="b" data-name="BG" d="M434 0H0v168h434V0Z" fill="#ce112d"/><path fill="#fff" d="M29 108.47h11.68v39.54h20.99v-39.54h11.68V89.24H29v19.23zM131 89.24h21.32v58.77H131zM126.61 109.05c0-12.57-7.99-19.81-23.6-19.81H76.62v58.77h20.59v-19.4l10.21 19.4h23.52l-15.6-23.92c6.78-.82 11.26-6.66 11.26-15.04Zm-26.13 6.82h-3.27v-11.52h3.27c4.08 0 6.21 2.22 6.21 5.84s-2.21 5.68-6.21 5.68ZM219.34 116.74c.03-1.46-.03-2.92-.17-4.38h-32.5v13.91h9.21c-.5 3.07-3.13 4.9-7.25 4.9-6.75 0-10.78-4.82-10.78-13.17s4.28-13.24 10.29-13.24c1.71-.03 3.39.4 4.87 1.26s2.7 2.11 3.53 3.61l18.84-7.03c-5.92-10.19-15.55-15.65-27.56-15.65a31.226 31.226 0 0 0-22.55 8.86 30.562 30.562 0 0 0-8.89 22.19c-.1 4.11.63 8.21 2.16 12.02 1.53 3.82 3.82 7.28 6.72 10.17 3.3 3.08 7.19 5.44 11.44 6.96 4.24 1.51 8.75 2.13 13.24 1.83 4.49-.3 8.87-1.53 12.88-3.59 4.01-2.07 7.55-4.94 10.41-8.43 4.11-5.46 6.09-12.09 6.09-20.21ZM402.55 105.7c-1.58-3.8-3.89-7.25-6.81-10.14-6.43-5.76-14.74-8.95-23.34-8.95s-16.92 3.18-23.34 8.95a31.01 31.01 0 0 0-6.8 10.11c-1.58 3.79-2.39 7.86-2.39 11.97s.81 8.18 2.39 11.97a31.01 31.01 0 0 0 6.8 10.11c6.39 5.8 14.69 9.01 23.29 9.03s16.91-3.17 23.32-8.95a30.93 30.93 0 0 0 6.85-10.12 31.09 31.09 0 0 0 2.42-11.99c0-4.12-.8-8.2-2.38-12.01Zm-30.15 23.17c-5.97 0-10.32-4.31-10.32-11.19s4.36-11.27 10.32-11.27 10.22 4.4 10.22 11.27-4.25 11.19-10.22 11.19ZM233.85 89.24l-20.83 58.77h22.54l1.8-7.4h15.85l1.87 7.4h22.55l-20.42-58.77h-23.36Zm7.02 37.4 1.8-6.66c1.26-4.2 2.06-8.53 2.37-12.91h.41c.31 4.38 1.1 8.71 2.37 12.91l1.79 6.66h-8.74ZM316.45 110.61c-.03 3.14.19 6.27.66 9.37l-18.14-30.74h-20.59v58.77h20.26V126.8c.02-3.11-.2-6.21-.65-9.28l17.96 30.49h20.75V89.24h-20.25v21.37Z"/></symbol><symbol id="quote" viewBox="0 0 65.04 52.73"><path d="M28.91 19.92c0 4.3-.94 8.24-2.83 11.82-1.89 3.52-4.1 6.58-6.64 9.18-2.6 2.67-5.47 5.08-8.59 7.23-3.13 2.08-5.63 3.61-7.52 4.59L.01 46.98c2.67-1.56 5.21-3.16 7.62-4.79 2.47-1.69 4.36-3.29 5.66-4.79 1.76-1.95 3.16-3.97 4.2-6.05 1.04-2.15 1.69-4.95 1.95-8.4h-4.69c-4.1 0-7.29-1.04-9.57-3.12-2.28-2.08-3.42-4.98-3.42-8.69 0-2.67 1.04-5.18 3.12-7.52C6.97 1.2 9.8 0 13.38 0c5.53 0 9.51 1.86 11.91 5.57C27.7 9.22 28.9 14 28.9 19.93Zm36.13 0c0 4.3-.94 8.24-2.83 11.82-1.89 3.52-4.1 6.58-6.64 9.18-2.6 2.67-5.47 5.08-8.59 7.23-3.12 2.08-5.63 3.61-7.52 4.59l-3.32-5.76c2.67-1.56 5.21-3.16 7.62-4.79 2.47-1.69 4.36-3.29 5.66-4.79 1.76-1.95 3.16-3.97 4.2-6.05 1.04-2.15 1.69-4.95 1.95-8.4h-4.69c-4.1 0-7.29-1.04-9.57-3.12-2.28-2.08-3.42-4.98-3.42-8.69 0-2.67 1.04-5.18 3.12-7.52 2.08-2.41 4.92-3.61 8.5-3.61 5.53 0 9.51 1.86 11.91 5.57 2.41 3.65 3.61 8.43 3.61 14.36Z" style="isolation:isolate"/></symbol></svg>
+</div>
+
+<div id="main_container">
+
+	<!-- Main loader -->
+<div id="main_loader">
+	<svg class="icon" data-icon-name="logo"><use href="#logo" /></svg>
+	</div>
+	<!-- Header -->
+<header id="header">
+		<div class="header__main">
+
+		<!-- Logo -->
+					<h1 class="main_logo">
+				<a href="https://trigano.com/fr" aria-label="Trigano">
+					<svg class="icon" data-icon-name="logo"><use href="#logo" /></svg>
+				</a>
+			</h1>
+		
+		<!-- Menu -->
+		<nav class="header_menu">
+			<ul class="header_menu__items">
+				<li class="header_menu__item header_menu__item--submenu_hide">
+					<button class="header_menu__link" type="button" data-submenu-close aria-label="Fermer le sous-menu">
+						<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+					</button>
+				</li>
+															<li class="header_menu__item header_menu__item--search">
+							<button class="header_menu__link" type="button" data-panel-toggle="search_form" aria-label="Ouvrir la recherche">
+								<span class="header_menu__link_text">Rechercher</span>
+								<svg class="icon icon-search" data-icon-name="icon-search"><use href="#icon-search" /></svg>
+								<svg class="icon icon-close" data-icon-name="icon-close"><use href="#icon-close" /></svg>
+							</button>
+						</li>
+									
+															<li class="header_menu__item header_menu__item--countries">
+							<button type="button" data-panel-toggle="countries" class="header_menu__link">
+								<span class="header_menu__link_text">Français</span>
+								<svg class="icon" data-icon-name="icon-language"><use href="#icon-language" /></svg>
+							</button>
+						</li>
+									
+									<li class="header_menu__item header_menu__item--menu">
+						<button class="header_menu__link header_menu__link--menu" type="button" data-panel-toggle="menu">
+							Menu
+							<span class="icon"></span>
+						</button>
+					</li>
+							</ul>
+		</nav>
+
+	</div>
+</header>
+<span class="header_background"></span>
+
+<!-- Menu -->
+<nav id="menu" class="panel" data-url-slug="menu" data-panel-id="menu" data-component="menu">
+	<div class="panel__wrapper" data-lenis-prevent>
+		<div class="panel__inner">
+			<button class="menu__close" data-panel-toggle="menu" aria-label="Fermer le menu" tabindex="-1"></button>
+			
+
+
+				
+						
+	<figure class="img_lazy__container menu__image img_lazy--full"
+					style="--aspect-ratio:1.0435">
+		<picture>
+
+																
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/01/menu_image-512x491-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/01/menu_image-640x614-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/01/menu_image-960x921-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1280x1228-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1440x1382-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1680x1612-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1920x1842-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2000x1919-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2160x2073-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2560x2456-c-center.webp 2560w" sizes="75vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/01/menu_image-512x491-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/01/menu_image-640x614-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/01/menu_image-960x921-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1280x1228-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1440x1382-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1680x1612-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1920x1842-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2000x1919-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2160x2073-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2560x2456-c-center.jpg 2560w" sizes="75vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.jpg" alt="menu_image"
+					 class="img_lazy menu__image__img "
+					 width="384"
+					 height="368"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.jpg"
+					alt="menu_image"
+					width="384"
+					height="368"
+					loading="lazy">
+			</noscript>
+			</figure>
+			<ul class="menu__items">
+									<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-763 menu-item-has-children">
+													<button type="button" data-submenu-id="763" class="menu__link">Le groupe</button>
+											</li>
+									<li class="menu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-810 menu-item-has-children">
+													<button type="button" data-submenu-id="810" class="menu__link">Nos activités</button>
+											</li>
+									<li class="menu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-811 menu-item-has-children">
+													<button type="button" data-submenu-id="811" class="menu__link">Nos services</button>
+											</li>
+									<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-762">
+													<a href="https://trigano.com/fr/contact/" class="menu__link">Contact</a>
+											</li>
+							</ul>
+			<!-- Submenu -->
+												<div class="submenu" data-submenu-id="763">
+						<ul class="submenu__items">
+															<li class="submenu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-746">
+									<a href="https://trigano.com/fr/le-groupe/profil/" class="submenu__link">Profil</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-750">
+									<a href="https://trigano.com/fr/le-groupe/histoire/" class="submenu__link">Histoire</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-748">
+									<a href="https://trigano.com/fr/le-groupe/engagements/" class="submenu__link">Engagements</a>
+								</li>
+													</ul>
+					</div>
+																<div class="submenu" data-submenu-id="810">
+						<ul class="submenu__items">
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-26 menu-item-has-children">
+									<a href="https://trigano.com/fr/marques/nos-activites/camping-car/" class="submenu__link">Camping-car</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-17">
+									<a href="https://trigano.com/fr/marques/nos-activites/caravane/" class="submenu__link">Caravane</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-19">
+									<a href="https://trigano.com/fr/marques/nos-activites/habitat-de-plein-air/" class="submenu__link">Habitat de plein air</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-22">
+									<a href="https://trigano.com/fr/marques/nos-activites/accessoires/" class="submenu__link">Accessoires</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-18 menu-item-has-children">
+									<a href="https://trigano.com/fr/marques/nos-activites/remorque/" class="submenu__link">Remorque</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-38">
+									<a href="https://trigano.com/fr/marques/nos-activites/camping-collectivites/" class="submenu__link">Camping et Collectivités</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-20">
+									<a href="https://trigano.com/fr/marques/nos-activites/jardin/" class="submenu__link">Jardin</a>
+								</li>
+													</ul>
+					</div>
+																<div class="submenu" data-submenu-id="811">
+						<ul class="submenu__items">
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-366">
+									<a href="https://trigano.com/fr/marques/nos-services/distribution/" class="submenu__link">Distribution</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-25">
+									<a href="https://trigano.com/fr/marques/nos-services/financement/" class="submenu__link">Financement</a>
+								</li>
+															<li class="submenu__item menu-item menu-item-type-taxonomy menu-item-object-brand_type menu-item-24">
+									<a href="https://trigano.com/fr/marques/nos-services/location/" class="submenu__link">Location</a>
+								</li>
+													</ul>
+					</div>
+														
+							<div class="menu__external_links">
+																		<a class="menu__external_link" href="https://careers.trigano.com/" target="_blank">
+								Carrières
+																	<svg class="icon" data-icon-name="icon-external"><use href="#icon-external" /></svg>
+															</a>
+																								<a class="menu__external_link" href="https://trigano-finance.com/" target="_blank">
+								Investisseurs
+																	<svg class="icon" data-icon-name="icon-external"><use href="#icon-external" /></svg>
+															</a>
+															</div>
+			
+			<button class="submenu__overlay" data-submenu-close tabindex="-1"></button>
+
+		</div>
+	</div>
+</nav>
+	<nav id="countries" class="panel" data-url-slug="pays" data-panel-id="countries" data-component="countries">
+	<div class="panel__wrapper">
+		<div class="panel__inner">
+			<button class="countries__close" data-panel-toggle="countries" aria-label="Fermer" tabindex="-1"></button>
+			
+
+
+				
+						
+	<figure class="img_lazy__container countries__image img_lazy--full"
+					style="--aspect-ratio:1.0435">
+		<picture>
+
+																
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/01/menu_image-512x491-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/01/menu_image-640x614-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/01/menu_image-960x921-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1280x1228-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1440x1382-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1680x1612-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1920x1842-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2000x1919-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2160x2073-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2560x2456-c-center.webp 2560w" sizes="75vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/01/menu_image-512x491-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/01/menu_image-640x614-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/01/menu_image-960x921-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1280x1228-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1440x1382-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1680x1612-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/01/menu_image-1920x1842-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2000x1919-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2160x2073-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/01/menu_image-2560x2456-c-center.jpg 2560w" sizes="75vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.jpg" alt="menu_image"
+					 class="img_lazy countries__image__img "
+					 width="384"
+					 height="368"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/menu_image-384x368-c-center.jpg"
+					alt="menu_image"
+					width="384"
+					height="368"
+					loading="lazy">
+			</noscript>
+			</figure>
+			<ul class="countries__items">
+									<li class="countries__item">
+						<a class="countries__link" href="https://trigano.com/en/">English</a>
+					</li>
+									<li class="countries__item">
+						<a class="countries__link" href="https://trigano.com/de/">Deutsch</a>
+					</li>
+									<li class="countries__item">
+						<a class="countries__link countries__link--active" href="https://trigano.com/fr/">Français</a>
+					</li>
+									<li class="countries__item">
+						<a class="countries__link" href="https://trigano.com/it/">Italiano</a>
+					</li>
+									<li class="countries__item">
+						<a class="countries__link" href="https://trigano.com/es/">Español</a>
+					</li>
+							</ul>
+		</div>
+	</div>
+</nav>
+						<div id="search_form" class="panel" data-url-slug="recherche" data-panel-id="search_form" data-component="search_form">
+	<div class="panel__wrapper search_form__wrapper">
+		<div class="panel__inner search_form__inner">
+			<form class="search_form__form" action="https://trigano.com" method="get">
+				<div class="search_form__input_wrapper">
+					<label class="sr_only" for="search_form_input">Recherche</label>
+					<input class="search_form__input" type="search" id="search_form_input" name="s" placeholder="Recherche libre">
+					<input type="hidden" name="lang" value="fr">
+					<input type="hidden" name="lang_code" value="fr_FR">
+					<button class="search_form__button" type="submit">
+						<span class="loader"></span>
+						recherche
+						<svg class="icon" data-icon-name="icon-search"><use href="#icon-search" /></svg>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<button class="panel__overlay" aria-label="Fermer la recherche" data-panel-toggle="search_form"></button>
+</div>
+			
+	<div id="page_wrapper" role="main">
+			<section class="page_container" id="front_page" data-view-id="front_page" data-id="2028">
+		<div class="page_content">
+			<div class="header_image header_image--content" style="--aspect-ratio: 1.8333333333333;">
+	
+
+
+				
+													
+	<figure class="img_lazy__container header_image__image img_lazy--parallax"
+					data-component="parallax"
+			data-parallax-start="top top"
+			data-parallax-end="bottom top"
+			data-parallax-direction="up"
+					style="--aspect-ratio:1.7778">
+		<picture>
+
+																
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-384x216-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-512x288-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-640x360-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-960x540-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1280x720-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1440x810-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1680x945-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1920x1080-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-2000x1125-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-2160x1215-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-2560x1440-c-center.webp 2560w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-384x216-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-512x288-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-640x360-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-960x540-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1280x720-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1440x810-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1680x945-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-1920x1080-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-2000x1125-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-2160x1215-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-2560x1440-c-center.jpg 2560w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-384x216-c-center.jpg" alt="trigano-2024-2"
+					 class="img_lazy header_image__image__img "
+					 width="384"
+					 height="216"
+					 >
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/10/trigano-2024-2-384x216-c-center.jpg"
+					alt="trigano-2024-2"
+					width="384"
+					height="216"
+					>
+			</noscript>
+			</figure>
+			<div class="header_image__content">	<h2 class="header_image__title">
+					<strong><p>Constructeur</p>
+</strong>
+			<p>de libertés</p>
+			</h2>
+</div>
+	</div>
+							<div class="flexible_wrapper">
+					<section class="flexible flexible_boxed_image_text" data-component="boxed_image_text">
+
+	<div class="flexible_boxed_image_text__wrapper cw grid_inner">
+		<div class="flexible_boxed_image_text__image_wrapper">
+			
+
+
+				
+						
+	<figure class="img_lazy__container flexible_boxed_image_text__image flexible_boxed_image_text__image--desktop"
+					style="--aspect-ratio:0.9389">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x409-c-center.webp 384w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-512x545-c-center.webp 512w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-640x681-c-center.webp 640w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-960x1021-c-center.webp 960w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1280x1362-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1440x1532-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1680x1787-c-center.webp 1680w" sizes="30vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x409-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-512x545-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-640x681-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-960x1021-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1280x1362-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1440x1532-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1680x1787-c-center.jpg 1680w" sizes="30vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x409-c-center.png" alt="adria-van-home-square"
+					 class="img_lazy flexible_boxed_image_text__image__img flexible_boxed_image_text__image--desktop__img "
+					 width="384"
+					 height="409"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x409-c-center.png"
+					alt="adria-van-home-square"
+					width="384"
+					height="409"
+					loading="lazy">
+			</noscript>
+			</figure>
+			
+
+
+				
+						
+	<figure class="img_lazy__container flexible_boxed_image_text__image flexible_boxed_image_text__image--mobile"
+					style="--aspect-ratio:1.024">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x375-c-center.webp 384w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-512x500-c-center.webp 512w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-640x624-c-center.webp 640w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-960x937-c-center.webp 960w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1280x1249-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1440x1405-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1680x1639-c-center.webp 1680w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x375-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-512x500-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-640x624-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-960x937-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1280x1249-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1440x1405-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-1680x1639-c-center.jpg 1680w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x375-c-center.png" alt="adria-van-home-square"
+					 class="img_lazy flexible_boxed_image_text__image__img flexible_boxed_image_text__image--mobile__img "
+					 width="384"
+					 height="375"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2025/07/adria-van-home-square-384x375-c-center.png"
+					alt="adria-van-home-square"
+					width="384"
+					height="375"
+					loading="lazy">
+			</noscript>
+			</figure>
+			<div class="flexible_boxed_image_text__side flexible_boxed_image_text__side--left bg_color--white">
+							</div>
+		</div>
+		<div class="flexible_boxed_image_text__content">
+						<div class="rich_text flexible_boxed_image_text__text  color--white"><h3>Leader européen des véhicules de loisirs, Trigano vous accompagne dans vos voyages</h3>
+<p>Que vous soyez en quête d&rsquo;évasion le temps d&rsquo;un week-end ou d&rsquo;un tour du monde, nos véhicules sont pensés pour vous offrir le confort et l&rsquo;autonomie dont vous avez besoin pour vivre pleinement votre soif de découverte.</p>
+<p>De ses origines en tant que spécialiste du matériel de camping à son statut actuel de leader européen du véhicule de loisirs, Trigano met son expertise au service des passionnés d’aventure en concevant des camping-cars, caravanes et mobil-homes pour des escapades d’exception.</p>
+<a class="button" href="/le-groupe/profil/">Le groupe</a>
+</div>
+
+			<div class="flexible_boxed_image_text__side flexible_boxed_image_text__side--right">
+									
+
+
+				
+						
+	<figure class="img_lazy__container flexible_boxed_image_text__side_image img_lazy--full"
+					style="--aspect-ratio:1.2673">
+		<picture>
+
+																
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/image_background-384x303-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/01/image_background-512x404-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/01/image_background-640x505-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/01/image_background-960x758-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/image_background-1280x1011-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/image_background-1440x1137-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/01/image_background-1680x1326-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/01/image_background-1920x1516-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/01/image_background-2000x1579-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/01/image_background-2160x1705-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/01/image_background-2560x2021-c-center.webp 2560w" sizes="75vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/image_background-384x303-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/01/image_background-512x404-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/01/image_background-640x505-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/01/image_background-960x758-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/image_background-1280x1011-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/image_background-1440x1137-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/01/image_background-1680x1326-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/01/image_background-1920x1516-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/01/image_background-2000x1579-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/01/image_background-2160x1705-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/01/image_background-2560x2021-c-center.jpg 2560w" sizes="75vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/image_background-384x303-c-center.jpg" alt="image_background"
+					 class="img_lazy flexible_boxed_image_text__side_image__img "
+					 width="384"
+					 height="303"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/image_background-384x303-c-center.jpg"
+					alt="image_background"
+					width="384"
+					height="303"
+					loading="lazy">
+			</noscript>
+			</figure>
+							</div>
+		</div>
+	</div>
+</section>
+					<section class="flexible flexible_full_image_text flexible_full_image_text--content_position_right flexible_full_image_text--content_size_small flexible_full_image_text--image_align_center" data-component="full_image_text">
+	
+
+
+				
+													
+	<figure class="img_lazy__container flexible_full_image_text__image img_lazy--parallax"
+					data-component="parallax"
+			data-parallax-start="top bottom"
+			data-parallax-end="bottom top"
+			data-parallax-direction="up"
+					style="--aspect-ratio:1.5">
+		<picture>
+
+																
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-384x256-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-512x341-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-640x427-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-960x640-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1280x853-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1440x960-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1680x1120-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1920x1280-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-2000x1333-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-2160x1440-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-2560x1707-c-center.webp 2560w" sizes="(max-width: 960px) 100vw, 50vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-384x256-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-512x341-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-640x427-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-960x640-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1280x853-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1440x960-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1680x1120-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-1920x1280-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-2000x1333-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-2160x1440-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-2560x1707-c-center.jpg 2560w" sizes="(max-width: 960px) 100vw, 50vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-384x256-c-center.jpg" alt="Mobilvetta-7-v2"
+					 class="img_lazy flexible_full_image_text__image__img "
+					 width="384"
+					 height="256"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/02/Mobilvetta-7-v2-384x256-c-center.jpg"
+					alt="Mobilvetta-7-v2"
+					width="384"
+					height="256"
+					loading="lazy">
+			</noscript>
+			</figure>
+	<div class="flexible_full_image_text__grid grid">
+		<div class="flexible_full_image_text__content_wrapper rich_text">
+						<div class="flexible_full_image_text__content">
+				<p><span data-teams="true">Au cœur de l&rsquo;offre Trigano, le camping-car représente l&rsquo;excellence du savoir-faire européen.</span></p>
+<p><span data-teams="true"> Avec un portefeuille de 24 marques de camping-car reconnues, Trigano propose une gamme complète qui répond à tous les styles de voyage et à tous les budgets. </span></p>
+<p><span data-teams="true">Chaque marque cultive sa propre identité et son expertise, offrant aux voyageurs une diversité de choix pour trouver le compagnon de route idéal.</span></p>
+<a class="button" href="/marques/nos-activites/camping-car/">nos camping-cars</a>
+
+			</div>
+		</div>
+	</div>
+</section>
+					<section class="flexible flexible_slider flexible_slider--has_content flexible_slider--type_brand_type bg_color--green flexible_slider--term_level1" data-component="slider">
+	<div class="grid">
+					<div class="flexible_slider__content rich_text">
+				<p>Découvrez nos camping-cars, caravanes, mobil-homes, remorques et accessoires pour véhicules de loisirs à travers plus de 90 marques.</p>
+
+			</div>
+							<div class="flexible_slider__slides">
+				<div class="flexible_slider__slides--inner">
+																		<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/camping-car/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="78" height="38" viewBox="0 0 78 38" fill="none"><path d="M60.293 10.4483L60.3368 19.2081L75.6205 18.9502L69.8978 10.4258L60.293 10.4483Z" fill="#5E8371"></path><path d="M28.3809 30.6935V11.1082C28.385 11.0138 28.4079 10.9211 28.4481 10.8356C28.4883 10.7501 28.5451 10.6735 28.6151 10.6101C28.6851 10.5467 28.767 10.4979 28.856 10.4665C28.945 10.435 29.0394 10.4216 29.1337 10.4269H36.9645C37.0588 10.4215 37.1532 10.4349 37.2422 10.4664C37.3313 10.4978 37.4132 10.5466 37.4832 10.61C37.5533 10.6734 37.6101 10.75 37.6503 10.8356C37.6905 10.9211 37.7134 11.0138 37.7175 11.1082V30.6935" fill="#5E8371"></path><path d="M11.5899 10.1689H18.8617C19.2253 10.1689 19.5741 10.3136 19.8312 10.5711C20.0883 10.8286 20.2328 11.1778 20.2328 11.5419V17.578C20.2328 17.9421 20.0883 18.2913 19.8312 18.5488C19.5741 18.8063 19.2253 18.9509 18.8617 18.9509H11.5899C11.2262 18.9509 10.8775 18.8063 10.6204 18.5488C10.3632 18.2913 10.2188 17.9421 10.2188 17.578V11.5419C10.2188 11.1778 10.3632 10.8286 10.6204 10.5711C10.8775 10.3136 11.2262 10.1689 11.5899 10.1689Z" fill="#5E8371"></path><path d="M75.8635 19.2078H61.181C61.0641 19.209 60.9481 19.1868 60.8398 19.1426C60.7316 19.0983 60.6333 19.0329 60.5506 18.9501C60.4679 18.8673 60.4025 18.7689 60.3583 18.6605C60.3141 18.5522 60.2919 18.436 60.293 18.319V11.3147C60.2919 11.1976 60.3141 11.0815 60.3583 10.9731C60.4025 10.8648 60.4679 10.7663 60.5506 10.6835C60.6333 10.6008 60.7316 10.5353 60.8398 10.4911C60.9481 10.4468 61.0641 10.4247 61.181 10.4258H69.8982" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M57.862 30.7109H20.8027" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M9.60664 30.7106H6.32413C5.62468 30.7106 4.93209 30.5727 4.28588 30.3047C3.63968 30.0367 3.05251 29.6438 2.55793 29.1486C2.06335 28.6534 1.67105 28.0654 1.4034 27.4184C1.13575 26.7713 0.998011 26.0778 0.998047 25.3774V2.37296C0.998047 2.00883 1.14251 1.65961 1.39965 1.40213C1.65679 1.14465 2.00554 1 2.36919 1H53.9978C56.8958 0.999975 59.75 1.70886 62.312 3.065C64.8741 4.42115 67.0665 6.38349 68.6986 8.78139L76.9823 20.9507C77.1093 21.1131 77.1781 21.3135 77.1776 21.5197V29.8217C77.1776 29.9384 77.1546 30.054 77.11 30.1619C77.0654 30.2697 77 30.3677 76.9176 30.4502C76.8351 30.5327 76.7373 30.5982 76.6296 30.6429C76.5219 30.6876 76.4064 30.7106 76.2899 30.7106H68.6347" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M11.5899 10.1689H18.8617C19.2253 10.1689 19.5741 10.3136 19.8312 10.5711C20.0883 10.8286 20.2328 11.1778 20.2328 11.5419V17.578C20.2328 17.9421 20.0883 18.2913 19.8312 18.5488C19.5741 18.8063 19.2253 18.9509 18.8617 18.9509H11.5899C11.2262 18.9509 10.8775 18.8063 10.6204 18.5488C10.3632 18.2913 10.2188 17.9421 10.2188 17.578V11.5419C10.2188 11.1778 10.3632 10.8286 10.6204 10.5711C10.8775 10.3136 11.2262 10.1689 11.5899 10.1689V10.1689Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M66.7852 26.3193H77.1784" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M0.998047 26.3193H11.8817" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M31.5957 21.3134V19.2471" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path><path d="M15.264 36.2576C18.3234 36.2576 20.8035 33.7742 20.8035 30.7108C20.8035 27.6474 18.3234 25.1641 15.264 25.1641C12.2047 25.1641 9.72461 27.6474 9.72461 30.7108C9.72461 33.7742 12.2047 36.2576 15.264 36.2576Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M63.4027 36.2576C66.4621 36.2576 68.9421 33.7742 68.9421 30.7108C68.9421 27.6474 66.4621 25.1641 63.4027 25.1641C60.3434 25.1641 57.8633 27.6474 57.8633 30.7108C57.8633 33.7742 60.3434 36.2576 63.4027 36.2576Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M28.3809 30.6935V11.1082C28.385 11.0138 28.4079 10.9211 28.4481 10.8356C28.4883 10.7501 28.5451 10.6735 28.6151 10.6101C28.6851 10.5467 28.767 10.4979 28.856 10.4665C28.945 10.435 29.0394 10.4216 29.1337 10.4269H36.9645C37.0588 10.4215 37.1532 10.4349 37.2422 10.4664C37.3313 10.4978 37.4132 10.5466 37.4832 10.61C37.5533 10.6734 37.6101 10.75 37.6503 10.8356C37.6905 10.9211 37.7134 11.0138 37.7175 11.1082V30.6935" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M65.3692 10.4493H56.1924C56.0755 10.4481 55.9595 10.4703 55.8513 10.5145C55.7431 10.5588 55.6448 10.6242 55.5621 10.707C55.4794 10.7898 55.4141 10.8882 55.3699 10.9966C55.3257 11.1049 55.3036 11.221 55.3047 11.3381V30.6933" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Camping-car</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					24 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+													<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/caravane/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="63" height="38" viewBox="0 0 63 38" fill="none"><path d="M7.25614 10.9395H20.8293C21.0687 10.9395 21.2982 11.032 21.4674 11.1967C21.6367 11.3613 21.7318 11.5847 21.7318 11.8176V18.7378C21.7311 18.9705 21.6358 19.1935 21.4667 19.358C21.2976 19.5225 21.0685 19.6153 20.8293 19.6159H7.20753C7.09722 19.6159 6.9881 19.5947 6.88625 19.5534C6.78441 19.5122 6.69186 19.4518 6.61412 19.3756C6.53637 19.2995 6.4749 19.2091 6.43319 19.1098C6.39149 19.0104 6.37038 18.904 6.37111 18.7967L6.41971 11.7479C6.42119 11.533 6.50996 11.3274 6.66666 11.1759C6.82336 11.0244 7.03527 10.9394 7.25614 10.9395Z" fill="#5E8371"></path><path d="M27.1016 30.9621V11.8176C27.1005 11.702 27.1232 11.5873 27.1682 11.4802C27.2131 11.3732 27.2796 11.276 27.3637 11.1942C27.4477 11.1124 27.5477 11.0478 27.6577 11.004C27.7678 10.9603 27.8856 10.9384 28.0045 10.9395H34.6649C34.7838 10.9384 34.9016 10.9603 35.0117 11.004C35.1217 11.0478 35.2217 11.1124 35.3057 11.1942C35.3898 11.276 35.4562 11.3732 35.5012 11.4802C35.5462 11.5873 35.5688 11.702 35.5677 11.8176V30.9621" fill="#5E8371"></path><path d="M7.25614 10.9395H20.8293C21.0687 10.9395 21.2982 11.032 21.4674 11.1967C21.6367 11.3613 21.7318 11.5847 21.7318 11.8176V18.7378C21.7311 18.9705 21.6358 19.1935 21.4667 19.358C21.2976 19.5225 21.0685 19.6153 20.8293 19.6159H7.20753C7.09722 19.6159 6.9881 19.5947 6.88625 19.5534C6.78441 19.5122 6.69186 19.4518 6.61412 19.3756C6.53637 19.2995 6.4749 19.2091 6.43319 19.1098C6.39149 19.0104 6.37038 18.904 6.37111 18.7967L6.41971 11.7479C6.42119 11.533 6.50996 11.3274 6.66666 11.1759C6.82336 11.0244 7.03527 10.9394 7.25614 10.9395V10.9395Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M27.1016 30.9621V11.8176C27.1005 11.702 27.1232 11.5873 27.1682 11.4802C27.2131 11.3732 27.2796 11.276 27.3637 11.1942C27.4477 11.1124 27.5477 11.0478 27.6577 11.004C27.7678 10.9603 27.8856 10.9384 28.0045 10.9395H34.6649C34.7838 10.9384 34.9016 10.9603 35.0117 11.004C35.1217 11.0478 35.2217 11.1124 35.3057 11.1942C35.3898 11.276 35.4562 11.3732 35.5012 11.4802C35.5462 11.5873 35.5688 11.702 35.5677 11.8176V30.9621" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M6.30755 30.9622H1.92055C1.79937 30.9608 1.67973 30.936 1.56851 30.8891C1.45728 30.8423 1.35667 30.7744 1.27268 30.6894C1.18869 30.6044 1.12295 30.504 1.07923 30.394C1.03551 30.284 1.01477 30.1667 1.01811 30.0488L1 6.47995C1 3.45921 3.41861 1 6.41523 1H37.0417C40.7389 1 44.2846 2.42908 46.8989 4.97286C49.5133 7.51664 50.9821 10.9667 50.9821 14.5642V30.962H17.5712" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M1 23.6455H27.1011" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M35.5664 23.6455H50.9817" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M50.4883 30.9619H60.9759" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M60.9746 26.2373V36.4422" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M63 26.2373H58.9492" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M11.921 36.4423C15.0314 36.4423 17.5529 33.9888 17.5529 30.9624C17.5529 27.9359 15.0314 25.4824 11.921 25.4824C8.81055 25.4824 6.28906 27.9359 6.28906 30.9624C6.28906 33.9888 8.81055 36.4423 11.921 36.4423Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M29.8887 21.6566V19.6152" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Caravane</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					6 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+													<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/habitat-de-plein-air/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="89" height="46" viewBox="0 0 89 46" fill="none"><path d="M80.5229 23.3983H72.3564C71.8559 23.3983 71.4629 23.0121 71.4629 22.5204V13.9863C71.4629 13.4946 71.8559 13.1084 72.3564 13.1084H80.5229C81.0233 13.1084 81.4163 13.4946 81.4163 13.9863V22.5204C81.4163 23.0121 81.0233 23.3983 80.5229 23.3983Z" fill="#5E8371"></path><path d="M43.4975 23.3983H35.331C34.8305 23.3983 34.4375 23.0121 34.4375 22.5204V13.9863C34.4375 13.4946 34.8305 13.1084 35.331 13.1084H43.4975C43.9979 13.1084 44.3909 13.4946 44.3909 13.9863V22.5204C44.3909 23.0121 43.98 23.3983 43.4975 23.3983Z" fill="#5E8371"></path><path d="M27.4868 23.3991H8.3837C7.88328 23.3991 7.49023 23.0129 7.49023 22.5211V13.8819C7.49023 13.3901 7.88328 13.0039 8.3837 13.0039H27.4868C27.9873 13.0039 28.3803 13.3901 28.3803 13.8819V22.5211C28.3803 23.0129 27.9873 23.3991 27.4868 23.3991Z" fill="#5E8371"></path><path d="M62.8499 39.1141H53.5575C53.0571 39.1141 52.6641 38.7279 52.6641 38.2362V13.8809C52.6641 13.3892 53.0571 13.0029 53.5575 13.0029H62.8499C63.3503 13.0029 63.7434 13.3892 63.7434 13.8809V38.2359C63.7434 38.7276 63.3324 39.1139 62.8499 39.1139V39.1141Z" fill="#5E8371"></path><path d="M27.4868 23.3991H8.3837C7.88328 23.3991 7.49023 23.0129 7.49023 22.5211V13.8819C7.49023 13.3901 7.88328 13.0039 8.3837 13.0039H27.4868C27.9873 13.0039 28.3803 13.3901 28.3803 13.8819V22.5211C28.3803 23.0129 27.9873 23.3991 27.4868 23.3991Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M18.7305 5.06684V2.28518C18.7305 1.79345 19.1235 1.40723 19.6239 1.40723H27.4868C27.9872 1.40723 28.3803 1.79345 28.3803 2.28518V5.06684H18.7305V5.06684Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M52.5742 41.8577V39.1143H63.743V41.8577H52.5742Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M78.9082 44.593V39.1143H87.5862V44.593H78.9082Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M1.41406 44.593V39.1143H10.092V44.593H1.41406Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M10.0918 44.593V39.1143H18.7698V44.593H10.0918Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M50.7227 44.5929V41.8535H65.5936V44.5929H50.7227Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M52.6641 39.1141V13.9115C52.6641 13.4027 53.0571 13.0029 53.5575 13.0029H62.8499C63.3503 13.0029 63.7434 13.4027 63.7434 13.9115V39.1141" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M80.5229 23.3983H72.3564C71.8559 23.3983 71.4629 23.0121 71.4629 22.5204V13.9863C71.4629 13.4946 71.8559 13.1084 72.3564 13.1084H80.5229C81.0233 13.1084 81.4163 13.4946 81.4163 13.9863V22.5204C81.4163 23.0121 81.0233 23.3983 80.5229 23.3983Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M43.4975 23.3983H35.331C34.8305 23.3983 34.4375 23.0121 34.4375 22.5204V13.9863C34.4375 13.4946 34.8305 13.1084 35.331 13.1084H43.4975C43.9979 13.1084 44.3909 13.4946 44.3909 13.9863V22.5204C44.3909 23.0121 43.98 23.3983 43.4975 23.3983Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M56.5273 28.0048V25.9639" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M87.5852 5.06641H1.4668V39.1144H87.5852V5.06641Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M1.41406 31.6133H52.6635" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M63.7422 31.6133H87.5854" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Habitat de plein air</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					7 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+													<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/accessoires/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none"><path d="M9.03973 3.00244C-0.317561 12.3597 -1.64273 26.6827 5.10062 37.3204" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.5527 45.7718C24.1904 52.5152 38.5134 51.1903 47.8707 41.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5.10179 37.3201C4.93171 37.4567 4.76682 37.6031 4.60886 37.7608C2.26059 40.1091 2.26059 43.9159 4.60886 46.2642C6.95714 48.6125 10.764 48.6125 13.1123 46.2642C13.2702 46.1062 13.4163 45.9413 13.5529 45.7712C11.8876 44.7155 10.3118 43.464 8.86042 42.0123C7.40906 40.5607 6.15725 38.9852 5.1015 37.3198L5.10179 37.3201Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22.4694 32.3925L22.4766 32.3844C21.8018 31.7658 21.131 31.1265 20.4668 30.4629C21.2052 31.1978 21.9361 31.9047 22.4694 32.3922V32.3925Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18.4417 28.3866C18.9886 28.9685 19.7042 29.7005 20.4172 30.4112C19.7423 29.7355 19.092 29.0531 18.4634 28.3667L18.4414 28.3866H18.4417Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M38.2486 15.1519L22.4766 32.3848C29.9938 39.2745 38.0248 43.3202 43.4502 43.2645C44.5019 43.2529 45.4115 43.0987 46.1791 42.8018C46.9316 42.5217 47.5903 42.1134 48.1361 41.5676C52.5291 37.1746 48.1043 25.5632 38.2489 15.1519H38.2486Z" fill="#5E8371"></path><path d="M9.30676 2.73704C8.76069 3.2831 8.35266 3.94149 8.07255 4.69403C7.77887 5.52078 7.61081 6.42203 7.60994 7.42261C7.55421 12.8408 11.5889 20.8576 18.4619 28.3659L35.7124 12.6147C25.304 2.76591 13.6984 -1.65457 9.30676 2.73704Z" fill="#5E8371"></path><path d="M20.4377 30.4351C20.4473 30.4446 20.4568 30.4539 20.4663 30.4634L20.4141 30.4111C20.4221 30.4192 20.4297 30.4273 20.4377 30.4351Z" fill="#5E8371"></path><path d="M22.4698 32.3922L46.1865 6.47854C47.1931 6.82246 48.3525 6.59318 49.1556 5.79011C50.2803 4.66535 50.2801 2.84206 49.1556 1.71759C48.0308 0.592834 46.2075 0.592834 45.0831 1.71759C44.28 2.52066 44.0507 3.67978 44.3946 4.68672L18.4395 28.386" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M35.7133 12.6145C25.3043 2.76543 13.6987 -1.65448 9.30676 2.73713C8.76098 3.2829 8.35266 3.94159 8.07255 4.69412C7.77888 5.52087 7.61081 6.42212 7.60995 7.42271C7.54902 13.3419 12.368 22.3634 20.4394 30.4348C28.5108 38.5062 37.5323 43.3249 43.4515 43.2642C44.5034 43.2527 45.4128 43.0985 46.1803 42.8016C46.9329 42.5215 47.5916 42.1132 48.1373 41.5674C52.5307 37.1741 48.1064 25.5623 38.2504 15.151" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Accessoires</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					7 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+													<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/remorque/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="72" height="26" viewBox="0 0 72 26" fill="none"><path d="M24.1604 7.30493H1.01739L1.00391 5.21836C1.00138 2.88937 2.8885 1 5.21749 1H54.2839V7.30493H35.5087" fill="#5E8371"></path><path d="M71.9992 14.502H67.918" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M1 7.33203H54.2847" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M9.97604 19.4034H1.92668C1.4174 19.4034 1.01739 18.9851 1.01739 18.4576L1.00391 5.23789C1.00138 2.9089 2.8885 1.01953 5.21749 1.01953H54.2839V19.4034H38.2995" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M69.9603 19.3945H54.0254" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M32.6255 25.0781C35.7593 25.0781 38.2998 22.5376 38.2998 19.4038C38.2998 16.27 35.7593 13.7295 32.6255 13.7295C29.4916 13.7295 26.9512 16.27 26.9512 19.4038C26.9512 22.5376 29.4916 25.0781 32.6255 25.0781Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M15.6509 25.0781C18.7847 25.0781 21.3252 22.5376 21.3252 19.4038C21.3252 16.27 18.7847 13.7295 15.6509 13.7295C12.517 13.7295 9.97656 16.27 9.97656 19.4038C9.97656 22.5376 12.517 25.0781 15.6509 25.0781Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M69.959 14.502V25.0688" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path><path d="M21.3242 19.4043H26.951" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Remorque</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					13 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+													<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/camping-collectivites/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="71" height="31" viewBox="0 0 71 31" fill="none"><path d="M62.7881 21.392C56.1199 11.6478 53.0036 1 53.0036 1C53.0036 1 49.8177 11.885 42.9961 21.7157L43.014 29.9218H62.7924V21.3986L62.7878 21.392H62.7881Z" fill="#5E8371"></path><path d="M8.20508 21.7285V29.9219H62.6864V21.7285" stroke="white" stroke-width="1.26261" stroke-linecap="round" stroke-linejoin="round"></path><path d="M52.8945 1.56934V29.9217" stroke="white" stroke-width="1.26261" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 29.9217C12.7296 19.356 18.102 1.00049 18.102 1.00049H52.8951" stroke="white" stroke-width="1.26261" stroke-linecap="round" stroke-linejoin="round"></path><path d="M52.8962 1.00049C52.8962 1.00049 49.7103 11.8855 42.8887 21.7162L42.9066 21.7286V29.922" stroke="white" stroke-width="1.26261" stroke-linecap="round" stroke-linejoin="round"></path><path d="M52.8945 1.00049C52.8945 1.00049 58.267 19.356 69.9965 29.9217" stroke="white" stroke-width="1.26261" stroke-linecap="round" stroke-linejoin="round"></path><path d="M42.89 21.7158H8.20508" stroke="white" stroke-width="1.26261" stroke-linecap="round" stroke-linejoin="round"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Camping et Collectivités</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					2 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+													<a class="flexible_slider__slide" href="https://trigano.com/fr/marques/nos-activites/jardin/">
+
+								<!-- Icon -->
+																																				<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44" viewBox="0 0 60 44" fill="none"><path d="M45 39H34V20H45V39Z" fill="#5E8371"></path><path d="M39.7617 1L59.1264 16.9479" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 16.9482H20.3965" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M25.4258 13.1837V42.2897H53.9598V12.6924" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M25.424 42.2896H4.80078V16.9482" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M39.7617 1H20.3652" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M45.3676 42.1284V19.6016H34.0137V42.1284" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M39.7612 1L20.3965 16.9479" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M33.2944 1L13.9297 16.9479" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M26.8295 1L7.46484 16.9479" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20.3647 1L1 16.9479" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M34.0137 38.4502H45.1636" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M42.4492 31.1307V29.1338" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path></svg> 
+																	
+								<!-- Title -->
+								<div class="flexible_slide__title">Jardin</div>
+
+								<!-- Counter -->
+																										<div class="flexible_slide__count">
+																					3 marques
+																			</div>
+								
+								<!-- Description -->
+								
+								<svg class="icon" data-icon-name="icon-arrow"><use href="#icon-arrow" /></svg>
+							</a>
+															</div>
+			</div>
+			</div>
+	</section>
+					<section class="flexible flexible_hero_text flexible_hero_text--image_only" data-component="hero_text">
+		
+
+
+				
+													
+	<figure class="img_lazy__container flexible_hero_text__image flexible_hero_text__image--desktop img_lazy--parallax"
+					data-component="parallax"
+			data-parallax-start="top bottom"
+			data-parallax-end="bottom top"
+			data-parallax-direction="up"
+					style="--aspect-ratio:1.8373">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x209-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-512x279-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-640x349-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-960x524-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1280x698-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1440x785-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1680x916-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1920x1047-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2000x1091-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2160x1178-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2560x1396-c-center.webp 2560w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x209-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-512x279-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-640x349-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-960x524-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1280x698-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1440x785-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1680x916-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1920x1047-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2000x1091-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2160x1178-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2560x1396-c-center.jpg 2560w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x209-c-center.jpg" alt="hero-text-image"
+					 class="img_lazy flexible_hero_text__image__img flexible_hero_text__image--desktop__img "
+					 width="384"
+					 height="209"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x209-c-center.jpg"
+					alt="hero-text-image"
+					width="384"
+					height="209"
+					loading="lazy">
+			</noscript>
+			</figure>
+	
+
+
+				
+													
+	<figure class="img_lazy__container flexible_hero_text__image flexible_hero_text__image--mobile img_lazy--parallax"
+					data-component="parallax"
+			data-parallax-start="top bottom"
+			data-parallax-end="bottom top"
+			data-parallax-direction="up"
+					style="--aspect-ratio:1.0756">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x357-c-center.webp 384w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-512x476-c-center.webp 512w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-640x595-c-center.webp 640w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-960x893-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1280x1191-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1440x1340-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1680x1563-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1920x1786-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2000x1860-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2160x2009-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2560x2381-c-center.webp 2560w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x357-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-512x476-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-640x595-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-960x893-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1280x1191-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1440x1340-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1680x1563-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-1920x1786-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2000x1860-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2160x2009-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2023/01/hero-text-image-2560x2381-c-center.jpg 2560w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x357-c-center.jpg" alt="hero-text-image"
+					 class="img_lazy flexible_hero_text__image__img flexible_hero_text__image--mobile__img "
+					 width="384"
+					 height="357"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/hero-text-image-384x357-c-center.jpg"
+					alt="hero-text-image"
+					width="384"
+					height="357"
+					loading="lazy">
+			</noscript>
+			</figure>
+</section>
+						<section class="flexible flexible_image_grid" data-component="image_grid">
+	<div class="flexible_image_grid__wrapper grid grid--custom">
+					<div class="flexible_image_grid__item flexible_image_grid__item--1">
+									<div class="flexible_image_grid__image flexible_image_grid__image">
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--desktop img_lazy--full"
+					style="--aspect-ratio:0.8221">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1557-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/grid1-960x1168-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/grid1-500x608-c-center.webp 500w" sizes="50vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1557-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/grid1-960x1168-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/grid1-500x608-c-center.jpg 500w" sizes="50vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1557-c-center.jpg" alt="grid1"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--desktop__img "
+					 width="1280"
+					 height="1557"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1557-c-center.jpg"
+					alt="grid1"
+					width="1280"
+					height="1557"
+					loading="lazy">
+			</noscript>
+			</figure>
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--mobile"
+					style="--aspect-ratio:1">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1280-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/grid1-960x960-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/grid1-500x500-c-center.webp 500w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1280-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/grid1-960x960-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/grid1-500x500-c-center.jpg 500w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1280-c-center.jpg" alt="grid1"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--mobile__img "
+					 width="1280"
+					 height="1280"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/grid1-1280x1280-c-center.jpg"
+					alt="grid1"
+					width="1280"
+					height="1280"
+					loading="lazy">
+			</noscript>
+			</figure>
+					</div>
+											</div>
+					<div class="flexible_image_grid__item flexible_image_grid__item--2">
+									<div class="flexible_image_grid__image flexible_image_grid__image">
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--desktop img_lazy--full"
+					style="--aspect-ratio:0.8242">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1553-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/grid3-960x1165-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/grid3-500x607-c-center.webp 500w" sizes="50vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1553-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/grid3-960x1165-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/grid3-500x607-c-center.jpg 500w" sizes="50vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1553-c-center.jpg" alt="grid3"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--desktop__img "
+					 width="1280"
+					 height="1553"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1553-c-center.jpg"
+					alt="grid3"
+					width="1280"
+					height="1553"
+					loading="lazy">
+			</noscript>
+			</figure>
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--mobile"
+					style="--aspect-ratio:1">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1280-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/grid3-960x960-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/grid3-500x500-c-center.webp 500w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1280-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/grid3-960x960-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/grid3-500x500-c-center.jpg 500w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1280-c-center.jpg" alt="grid3"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--mobile__img "
+					 width="1280"
+					 height="1280"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/grid3-1280x1280-c-center.jpg"
+					alt="grid3"
+					width="1280"
+					height="1280"
+					loading="lazy">
+			</noscript>
+			</figure>
+					</div>
+											</div>
+					<div class="flexible_image_grid__item flexible_image_grid__item--3">
+									<div class="flexible_image_grid__image flexible_image_grid__image">
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--desktop img_lazy--full"
+					style="--aspect-ratio:1.5006">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x853-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-960x640-c-center.webp 960w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-500x333-c-center.webp 500w" sizes="50vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x853-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-960x640-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-500x333-c-center.jpg 500w" sizes="50vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x853-c-center.jpg" alt="Ohara-Hatha Sept 2024 39755"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--desktop__img "
+					 width="1280"
+					 height="853"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x853-c-center.jpg"
+					alt="Ohara-Hatha Sept 2024 39755"
+					width="1280"
+					height="853"
+					loading="lazy">
+			</noscript>
+			</figure>
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--mobile"
+					style="--aspect-ratio:1">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x1280-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-960x960-c-center.webp 960w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-500x500-c-center.webp 500w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x1280-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-960x960-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-500x500-c-center.jpg 500w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x1280-c-center.jpg" alt="Ohara-Hatha Sept 2024 39755"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--mobile__img "
+					 width="1280"
+					 height="1280"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2025/05/Ohara-Hatha-Sept-2024-39755-1280x1280-c-center.jpg"
+					alt="Ohara-Hatha Sept 2024 39755"
+					width="1280"
+					height="1280"
+					loading="lazy">
+			</noscript>
+			</figure>
+					</div>
+											</div>
+					<div class="flexible_image_grid__item flexible_image_grid__item--4">
+									<div class="flexible_image_grid__image flexible_image_grid__image">
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--desktop img_lazy--full"
+					style="--aspect-ratio:0.5442">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x2352-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/grid4-960x1764-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/grid4-500x919-c-center.webp 500w" sizes="50vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x2352-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/grid4-960x1764-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/grid4-500x919-c-center.jpg 500w" sizes="50vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x2352-c-center.jpg" alt="grid4"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--desktop__img "
+					 width="1280"
+					 height="2352"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x2352-c-center.jpg"
+					alt="grid4"
+					width="1280"
+					height="2352"
+					loading="lazy">
+			</noscript>
+			</figure>
+						
+
+
+				
+						
+	<figure class="img_lazy__container flexible_image_grid__image flexible_image_grid__image--mobile"
+					style="--aspect-ratio:1">
+		<picture>
+
+																																						
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x1280-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2023/01/grid4-960x960-c-center.webp 960w, https://trigano.com/wp-content/uploads/2023/01/grid4-500x500-c-center.webp 500w" sizes="100vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 1280w" data-srcset="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x1280-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2023/01/grid4-960x960-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2023/01/grid4-500x500-c-center.jpg 500w" sizes="100vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x1280-c-center.jpg" alt="grid4"
+					 class="img_lazy flexible_image_grid__image__img flexible_image_grid__image--mobile__img "
+					 width="1280"
+					 height="1280"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2023/01/grid4-1280x1280-c-center.jpg"
+					alt="grid4"
+					width="1280"
+					height="1280"
+					loading="lazy">
+			</noscript>
+			</figure>
+					</div>
+											</div>
+			</div>
+</section>
+
+					<section class="flexible flexible_full_image_text bg_color--green_dark color--white flexible_full_image_text--content_position_right flexible_full_image_text--content_size_large flexible_full_image_text--image_align_center" style="--bg_color: #1f4042" data-component="full_image_text">
+	
+
+
+				
+													
+	<figure class="img_lazy__container flexible_full_image_text__image img_lazy--parallax"
+					data-component="parallax"
+			data-parallax-start="top bottom"
+			data-parallax-end="bottom top"
+			data-parallax-direction="up"
+					style="--aspect-ratio:0.6598">
+		<picture>
+
+																
+												<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-384x582-c-center.webp 384w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-512x776-c-center.webp 512w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-640x969-c-center.webp 640w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-960x1454-c-center.webp 960w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1280x1939-c-center.webp 1280w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1440x2181-c-center.webp 1440w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1680x2545-c-center.webp 1680w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1920x2908-c-center.webp 1920w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-2000x3029-c-center.webp 2000w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-2160x3272-c-center.webp 2160w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-2560x3878-c-center.webp 2560w" sizes="(max-width: 960px) 100vw, 50vw" type="image/webp">
+					<source srcset="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png 384w" data-srcset="https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-384x582-c-center.jpg 384w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-512x776-c-center.jpg 512w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-640x969-c-center.jpg 640w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-960x1454-c-center.jpg 960w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1280x1939-c-center.jpg 1280w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1440x2181-c-center.jpg 1440w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1680x2545-c-center.jpg 1680w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-1920x2908-c-center.jpg 1920w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-2000x3029-c-center.jpg 2000w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-2160x3272-c-center.jpg 2160w, https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-2560x3878-c-center.jpg 2560w" sizes="(max-width: 960px) 100vw, 50vw" type="image/jpeg">
+				
+				<img src="https://trigano.com/wp-content/themes/trigano/app-child/assets/dist/img/pattern-transparent.png" data-src="https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-384x582-c-center.png" alt="autostar-cap-frehel-route"
+					 class="img_lazy flexible_full_image_text__image__img "
+					 width="384"
+					 height="582"
+					 loading="lazy">
+			
+		</picture>
+							<noscript>
+				<img
+					src="https://trigano.com/wp-content/uploads/2025/07/autostar-cap-frehel-route-384x582-c-center.png"
+					alt="autostar-cap-frehel-route"
+					width="384"
+					height="582"
+					loading="lazy">
+			</noscript>
+			</figure>
+	<div class="flexible_full_image_text__grid grid">
+		<div class="flexible_full_image_text__content_wrapper rich_text">
+						<div class="flexible_full_image_text__content">
+				<p>Trigano vous offre l&rsquo;opportunité d&rsquo;intégrer un groupe industriel dynamique, spécialisé dans la conception et la fabrication de véhicules de loisirs.</p>
+<p>Rejoignez des équipes multiculturelles, multilingues, expérimentées et motivées.</p>
+<a class="button" href="https://careers.trigano.com/" target="_blank" rel="noopener">CARRIÈRES</a>
+
+			</div>
+		</div>
+	</div>
+</section>
+			</div>
+		</div>
+	</section>
+	</div>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+	<!-- Menu -->
+<nav class="footer__menus grid grid--custom">
+			<ul class="footer_menu__items">
+							<li class="footer_menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-815">
+					<a href="https://trigano.com/fr/le-groupe/" class="footer_menu__link">Le groupe</a>
+									</li>
+							<li class="footer_menu__item menu-item menu-item-type-custom menu-item-object-custom menu-item-5863">
+					<a href="/marques/nos-activites/camping-car/" class="footer_menu__link">Nos activités</a>
+									</li>
+							<li class="footer_menu__item menu-item menu-item-type-custom menu-item-object-custom menu-item-5864">
+					<a href="/marques/nos-services/distribution/" class="footer_menu__link">Nos services</a>
+									</li>
+					</ul>
+			<ul class="footer_menu__items">
+							<li class="footer_menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-819">
+					<a href="https://trigano.com/fr/le-groupe/engagements/" class="footer_menu__link">Engagements</a>
+									</li>
+							<li class="footer_menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-4626">
+					<a href="https://trigano.com/fr/ethique-conformite/" class="footer_menu__link">Éthique &#038; conformité</a>
+									</li>
+					</ul>
+			<ul class="footer_menu__items">
+							<li class="footer_menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-820">
+					<a href="https://trigano.com/fr/contact/" class="footer_menu__link">Contact</a>
+									</li>
+					</ul>
+	</nav>
+	<div class="footer__logo_line cw">
+		<a class="footer__logo" href="https://trigano.com" aria-label="Trigano">
+			<svg class="icon" data-icon-name="logo"><use href="#logo" /></svg>
+		</a>
+					<div class="footer__external_links">
+															<a class="footer__external_link" href="https://careers.trigano.com/" target="_blank">
+							Carrières
+															<svg class="icon" data-icon-name="icon-external"><use href="#icon-external" /></svg>
+													</a>
+																				<a class="footer__external_link" href="https://trigano-finance.com/" target="_blank">
+							Investisseurs
+															<svg class="icon" data-icon-name="icon-external"><use href="#icon-external" /></svg>
+													</a>
+												</div>
+			</div>
+	<div class="footer__bottom cw">
+		<div class="footer__copyright">&copy; Trigano 2025</div>
+		<!-- Footer menu 2 -->
+		<!-- Menu -->
+<nav class="footer__menu_bottom">
+	<ul class="footer_bottom__items">
+					<li class="footer_bottom__item menu-item menu-item-type-post_type menu-item-object-page menu-item-827">
+				<a href="https://trigano.com/fr/mentions-legales/" class="footer_menu_bottom__link">Mentions légales</a>
+			</li>
+					<li class="footer_bottom__item menu-item menu-item-type-post_type menu-item-object-page menu-item-826">
+				<a href="https://trigano.com/fr/politique-de-confidentialite/" class="footer_menu_bottom__link">Politique de confidentialité</a>
+			</li>
+			</ul>
+</nav>
+	</div>
+</footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/trigano\/app-child\/*","\/wp-content\/themes\/trigano\/app\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="pll_cookie_script-js-after">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=fr; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+</script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/trigano.com","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script id="theme-scripts-js-extra">
+var Theme_Config = {"SITE_URL":"https:\/\/trigano.com","THEME_URL":"https:\/\/trigano.com\/wp-content\/themes\/trigano\/app","AJAX_URL":"https:\/\/trigano.com\/wp-admin\/admin-ajax.php","IS_DEV":"false","IS_PREPROD":"false","IS_PROD":"true","CURRENT_LANG":"fr","RECAPTCHA_PUBLIC":"6Lex064UAAAAAACLV5KevqczpVBEchOzK2nbBfyy"};
+</script>
+<script data-minify="1" async defer src="https://trigano.com/wp-content/cache/min/1/wp-content/themes/trigano/app-child/assets/dist/js/scripts.js?ver=1763051931" id="theme-scripts-js"></script>
+
+
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1766062989 -->
