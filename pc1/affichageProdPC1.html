@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Affichage Ligne de Production</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin: 0;
+  background: #0b0f14;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== ADMIN ICON ===== */
+.admin-btn {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  font-size: 20px;
+  opacity: 0.25;
+  cursor: pointer;
+  z-index: 100;
+}
+.admin-btn:hover { opacity: 0.7; }
+
+/* ===== ADMIN PANEL ===== */
+.admin-panel {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.admin-box {
+  background: #111827;
+  padding: 30px;
+  width: 420px;
+  border-radius: 12px;
+}
+
+.admin-box h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.admin-box label {
+  display: block;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 12px;
+}
+
+.admin-box input,
+.admin-box textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 16px;
+  background: #020617;
+  color: white;
+  border: 1px solid #333;
+}
+
+.admin-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.admin-actions button {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.danger {
+  background: #dc2626;
+  color: white;
+  border: none;
+}
+
+/* ===== TAKT ===== */
+.takt {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.takt-label {
+  font-size: 36px;
+  opacity: 0.7;
+}
+
+.takt-time {
+  font-size: 180px;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.takt-sub {
+  font-size: 32px;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+
+/* ===== ACTIONS PROD ===== */
+.takt-actions {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.takt-actions button {
+  padding: 14px 26px;
+  font-size: 22px;
+  background: #111;
+  color: white;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.takt-actions button:hover {
+  background: #1f2933;
+}
+
+.takt-actions .reset {
+  border-color: #dc2626;
+}
+
+/* ===== PAUSE ===== */
+.pause-indicator {
+  margin-top: 18px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #facc15;
+  display: none;
+}
+
+.paused .takt-time {
+  opacity: 0.4;
+}
+
+/* ===== BAS ===== */
+.bottom {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 3px solid #222;
+}
+
+.card {
+  padding: 40px;
+}
+
+.card h2 {
+  font-size: 32px;
+  opacity: 0.75;
+}
+
+.big {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 32px;
+  opacity: 0.7;
+}
+
+.info {
+  font-size: 40px;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+.alert {
+  color: #ff4d4d;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ⚙️ ADMIN -->
+<div class="admin-btn" onclick="openAdmin()">⚙️</div>
+
+<div class="admin-panel" id="adminPanel">
+  <div class="admin-box">
+    <h2>Mode Admin</h2>
+
+    <label>Takt time (minutes)</label>
+    <input type="number" id="adminTakt">
+
+    <label>Objectif du jour</label>
+    <input type="number" id="adminTarget">
+
+    <label>Réalisé</label>
+    <input type="number" id="adminDone">
+
+    <label>Message info</label>
+    <textarea id="adminInfo" rows="4"></textarea>
+
+    <div class="admin-actions">
+      <button onclick="togglePause()">Pause / Reprise</button>
+      <button onclick="resetTimer()" class="danger">Reset timer</button>
+      <button onclick="saveAdmin()" class="close">Enregistrer</button>
+      <button onclick="closeAdmin()">Fermer</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== ÉCRAN PROD ===== -->
+<div class="screen">
+  <div class="takt">
+    <div class="takt-label">TAKT TIME</div>
+    <div class="takt-time" id="timeLeft">00:00:00</div>
+
+    <div class="takt-sub">
+      Objectif : <span id="taktMinutes">180</span> minutes
+    </div>
+
+    <div class="takt-actions">
+      <button onclick="togglePause()" id="pauseBtn">⏸ Pause</button>
+      <button onclick="resetCycle()" class="reset">⟳ Fin de cycle</button>
+    </div>
+
+    <div class="pause-indicator" id="pauseIndicator">
+      ⏸ EN PAUSE
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="card">
+      <h2>OBJECTIF DU JOUR</h2>
+      <div class="big"><span id="done">0</span> / <span id="target">10</span></div>
+      <div class="small">Reste : <span id="remaining">10</span></div>
+    </div>
+
+    <div class="card">
+      <h2>INFO / CONSIGNES</h2>
+      <div class="info" id="infoText">—</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const KEY = "ligne_prod_final";
+
+/* ===== STATE ===== */
+let state = {
+  taktMinutes: 180,
+  target: 10,
+  done: 0,
+  info: "",
+  paused: false,
+  startTime: Date.now(),
+  pausedAt: null
+};
+
+function load() {
+  const s = localStorage.getItem(KEY);
+  if (s) state = JSON.parse(s);
+}
+
+function save() {
+  localStorage.setItem(KEY, JSON.stringify(state));
+}
+
+/* ===== TIMER ===== */
+function format(sec) {
+  const h = String(Math.floor(sec / 3600)).padStart(2, "0");
+  const m = String(Math.floor((sec % 3600) / 60)).padStart(2, "0");
+  const s = String(sec % 60).padStart(2, "0");
+  return `${h}:${m}:${s}`;
+}
+
+setInterval(() => {
+  if (state.paused) return;
+
+  const elapsed = Math.floor((Date.now() - state.startTime) / 1000);
+  const remaining = state.taktMinutes * 60 - elapsed;
+  const el = document.getElementById("timeLeft");
+
+  el.textContent = remaining >= 0
+    ? format(remaining)
+    : "-" + format(Math.abs(remaining));
+
+  el.classList.toggle("alert", remaining < 0);
+}, 1000);
+
+/* ===== ACTIONS ===== */
+function togglePause() {
+  if (!state.paused) {
+    state.pausedAt = Date.now();
+    state.paused = true;
+  } else {
+    state.startTime += Date.now() - state.pausedAt;
+    state.paused = false;
+  }
+  save();
+  render();
+}
+
+function resetCycle() {
+  state.done += 1;
+  state.startTime = Date.now();
+  state.paused = false;
+  save();
+  render();
+}
+
+function resetTimer() {
+  state.startTime = Date.now();
+  save();
+}
+
+/* ===== RENDER ===== */
+function render() {
+  document.getElementById("taktMinutes").textContent = state.taktMinutes;
+  document.getElementById("target").textContent = state.target;
+  document.getElementById("done").textContent = state.done;
+  document.getElementById("remaining").textContent = state.target - state.done;
+  document.getElementById("infoText").textContent = state.info;
+
+  const pauseIndicator = document.getElementById("pauseIndicator");
+  const pauseBtn = document.getElementById("pauseBtn");
+
+  if (state.paused) {
+    pauseIndicator.style.display = "block";
+    document.body.classList.add("paused");
+    pauseBtn.textContent = "▶ Reprendre";
+  } else {
+    pauseIndicator.style.display = "none";
+    document.body.classList.remove("paused");
+    pauseBtn.textContent = "⏸ Pause";
+  }
+}
+
+/* ===== ADMIN ===== */
+function openAdmin() {
+  adminPanel.style.display = "flex";
+  adminTakt.value = state.taktMinutes;
+  adminTarget.value = state.target;
+  adminDone.value = state.done;
+  adminInfo.value = state.info;
+}
+
+function closeAdmin() {
+  adminPanel.style.display = "none";
+}
+
+function saveAdmin() {
+  state.taktMinutes = +adminTakt.value;
+  state.target = +adminTarget.value;
+  state.done = +adminDone.value;
+  state.info = adminInfo.value;
+  save();
+  render();
+  closeAdmin();
+}
+
+/* INIT */
+load();
+render();
+</script>
+
+</body>
+</html>
