@@ -12,7 +12,7 @@ body {
   padding: 40px;
 }
 .card {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
   background: #111827;
   padding: 30px;
@@ -22,7 +22,7 @@ label {
   display: block;
   margin-top: 15px;
 }
-select, textarea, button {
+select, textarea, input, button {
   width: 100%;
   margin-top: 6px;
   padding: 10px;
@@ -37,7 +37,11 @@ button {
 }
 .status {
   margin-top: 15px;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+hr {
+  margin: 30px 0;
+  border: 1px solid #222;
 }
 </style>
 </head>
@@ -47,46 +51,91 @@ button {
 <div class="card">
   <h2>Interface Chef d’atelier</h2>
 
+  <!-- ===== SELECTION PC ===== -->
   <label>Écran</label>
-  <select id="screen">
-    <option value="pc1">PC 1</option>
-    <option value="pc2">PC 2</option>
-    <option value="pc3">PC 3</option>
-  </select>
+  <select id="screen"></select>
 
   <label>Message</label>
   <textarea id="message" rows="4"></textarea>
 
-  <button onclick="send()">Envoyer</button>
+  <button onclick="updateMessage()">Envoyer le message</button>
 
   <div class="status" id="status"></div>
+
+  <hr>
+
+  <!-- ===== AJOUT PC ===== -->
+  <h3>Ajouter un nouvel écran</h3>
+
+  <label>ID du PC (ex: pc3)</label>
+  <input id="newId">
+
+  <label>Titre</label>
+  <input id="newTitle">
+
+  <button onclick="addPC()">Ajouter le PC</button>
 </div>
 
 <script>
 const API_URL = "COLLE_ICI_TON_URL_APPS_SCRIPT";
 
-async function send() {
-  const id = document.getElementById("screen").value;
-  const message = document.getElementById("message").value;
-  const status = document.getElementById("status");
+const screenSelect = document.getElementById("screen");
+const messageInput = document.getElementById("message");
+const status = document.getElementById("status");
+
+/* ===== CHARGER LA LISTE DES PC ===== */
+async function loadScreens() {
+  const r = await fetch(API_URL);
+  const data = await r.json();
+
+  screenSelect.innerHTML = "";
+  data.forEach(row => {
+    const opt = document.createElement("option");
+    opt.value = row.id;
+    opt.textContent = row.titre || row.id;
+    screenSelect.appendChild(opt);
+  });
+
+  loadMessage();
+}
+
+/* ===== CHARGER MESSAGE ===== */
+async function loadMessage() {
+  const id = screenSelect.value;
+  const r = await fetch(API_URL);
+  const data = await r.json();
+  const row = data.find(r => r.id === id);
+  messageInput.value = row ? row.message : "";
+}
+
+/* ===== UPDATE MESSAGE ===== */
+async function updateMessage() {
+  const id = screenSelect.value;
+  const message = messageInput.value;
 
   status.textContent = "Envoi…";
 
-  try {
-    const r = await fetch(API_URL, {
-      method: "POST",
-      body: JSON.stringify({ id, message })
-    });
+  const r = await fetch(API_URL, {
+    method: "POST",
+    body: JSON.stringify({
+      action: "update",
+      id,
+      message
+    })
+  });
 
-    const text = await r.text();
-    status.textContent = text === "OK"
-      ? "Message mis à jour ✔"
-      : "Erreur : " + text;
-  } catch (e) {
-    status.textContent = "Erreur réseau";
-  }
+  status.textContent = await r.text();
 }
-</script>
 
-</body>
-</html>
+/* ===== AJOUT PC ===== */
+async function addPC() {
+  const id = document.getElementById("newId").value.trim();
+  const titre = document.getElementById("newTitle").value.trim();
+
+  if (!id) {
+    status.textContent = "ID obligatoire";
+    return;
+  }
+
+  const r = await fetc
+
