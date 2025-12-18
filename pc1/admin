@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Pilotage écrans</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0f14;
+  color: white;
+  padding: 40px;
+}
+.card {
+  max-width: 600px;
+  margin: auto;
+  background: #111827;
+  padding: 30px;
+  border-radius: 12px;
+}
+label {
+  display: block;
+  margin-top: 15px;
+}
+select, textarea, button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.status {
+  margin-top: 15px;
+  opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <h2>Interface Chef d’atelier</h2>
+
+  <label>Écran</label>
+  <select id="screen">
+    <option value="pc1">PC 1</option>
+    <option value="pc2">PC 2</option>
+    <option value="pc3">PC 3</option>
+  </select>
+
+  <label>Message</label>
+  <textarea id="message" rows="4"></textarea>
+
+  <button onclick="send()">Envoyer</button>
+
+  <div class="status" id="status"></div>
+</div>
+
+<script>
+const API_URL = "COLLE_ICI_TON_URL_APPS_SCRIPT";
+
+async function send() {
+  const id = document.getElementById("screen").value;
+  const message = document.getElementById("message").value;
+  const status = document.getElementById("status");
+
+  status.textContent = "Envoi…";
+
+  try {
+    const r = await fetch(API_URL, {
+      method: "POST",
+      body: JSON.stringify({ id, message })
+    });
+
+    const text = await r.text();
+    status.textContent = text === "OK"
+      ? "Message mis à jour ✔"
+      : "Erreur : " + text;
+  } catch (e) {
+    status.textContent = "Erreur réseau";
+  }
+}
+</script>
+
+</body>
+</html>
