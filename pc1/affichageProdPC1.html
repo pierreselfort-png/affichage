@@ -217,7 +217,7 @@ body {
     <label>Réalisé</label>
     <input type="number" id="adminDone">
 
-    <label>Message info</label>
+    <label>Message info (local)</label>
     <textarea id="adminInfo" rows="4"></textarea>
 
     <div class="admin-actions">
@@ -264,9 +264,14 @@ body {
 </div>
 
 <script>
+/* ================= CONFIG GOOGLE SHEET ================= */
+const SHEET_ID = "1rqtagt5yFWq7CCvMymb0ZPhnvoBoFc2KO3TChLhHmh0";
+const PC_ID = "pc1";              // ⚠️ changer en pc2, pc3…
+const SHEET_REFRESH = 60000;      // 1 minute
+
+/* ================= LOCAL STATE ================= */
 const KEY = "ligne_prod_final";
 
-/* ===== STATE ===== */
 let state = {
   taktMinutes: 180,
   target: 10,
@@ -286,7 +291,27 @@ function save() {
   localStorage.setItem(KEY, JSON.stringify(state));
 }
 
-/* ===== TIMER ===== */
+/* ================= GOOGLE SHEET SYNC ================= */
+async function fetchRemoteInfo() {
+  try {
+    const url = `https://opensheet.elk.sh/${SHEET_ID}/1`;
+    const r = await fetch(url, { cache: "no-store" });
+    const rows = await r.json();
+
+    const row = rows.find(r => r.id === PC_ID);
+    if (!row || !row.message) return;
+
+    if (state.info !== row.message) {
+      state.info = row.message;
+      save();
+      render();
+    }
+  } catch (e) {
+    // silence : fallback local
+  }
+}
+
+/* ================= TIMER ================= */
 function format(sec) {
   const h = String(Math.floor(sec / 3600)).padStart(2, "0");
   const m = String(Math.floor((sec % 3600) / 60)).padStart(2, "0");
@@ -296,19 +321,15 @@ function format(sec) {
 
 setInterval(() => {
   if (state.paused) return;
-
   const elapsed = Math.floor((Date.now() - state.startTime) / 1000);
   const remaining = state.taktMinutes * 60 - elapsed;
   const el = document.getElementById("timeLeft");
 
-  el.textContent = remaining >= 0
-    ? format(remaining)
-    : "-" + format(Math.abs(remaining));
-
+  el.textContent = remaining >= 0 ? format(remaining) : "-" + format(Math.abs(remaining));
   el.classList.toggle("alert", remaining < 0);
 }, 1000);
 
-/* ===== ACTIONS ===== */
+/* ================= ACTIONS ================= */
 function togglePause() {
   if (!state.paused) {
     state.pausedAt = Date.now();
@@ -334,13 +355,13 @@ function resetTimer() {
   save();
 }
 
-/* ===== RENDER ===== */
+/* ================= RENDER ================= */
 function render() {
   document.getElementById("taktMinutes").textContent = state.taktMinutes;
   document.getElementById("target").textContent = state.target;
   document.getElementById("done").textContent = state.done;
   document.getElementById("remaining").textContent = state.target - state.done;
-  document.getElementById("infoText").textContent = state.info;
+  document.getElementById("infoText").textContent = state.info || "—";
 
   const pauseIndicator = document.getElementById("pauseIndicator");
   const pauseBtn = document.getElementById("pauseBtn");
@@ -356,7 +377,7 @@ function render() {
   }
 }
 
-/* ===== ADMIN ===== */
+/* ================= ADMIN ================= */
 function openAdmin() {
   adminPanel.style.display = "flex";
   adminTakt.value = state.taktMinutes;
@@ -379,10 +400,14 @@ function saveAdmin() {
   closeAdmin();
 }
 
-/* INIT */
+/* ================= INIT ================= */
 load();
 render();
+fetchRemoteInfo();
+setInterval(fetchRemoteInfo, SHEET_REFRESH);
 </script>
 
 </body>
 </html>
+
+
