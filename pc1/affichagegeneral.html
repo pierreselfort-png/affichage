@@ -2,132 +2,118 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Affichage Informations</title>
+<title>Informations générales</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 body {
   margin: 0;
-  background: #0b0f14;
-  color: #ffffff;
+  background: #f4f6f8;
+  color: #1f2937;
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
-  overflow: hidden;
 }
 
-/* ===== LAYOUT ===== */
-.screen {
-  position: relative;
-  width: 100%;
-  height: 100%;
+/* ===== HEADER ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #ffffff;
+  border-bottom: 3px solid #e5e7eb;
 }
 
-/* ===== TOP ===== */
-.top-left {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-.top-left img {
+.header img {
   height: 60px;
 }
 
-.top-right {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 28px;
-  opacity: 0.85;
+.header .date {
+  font-size: 22px;
+  color: #374151;
 }
 
-/* ===== CENTER MESSAGE ===== */
-.center {
-  position: absolute;
-  inset: 0;
+/* ===== MAIN ===== */
+.main {
+  height: calc(100vh - 160px);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.message-box {
+  background: white;
+  padding: 60px 80px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  max-width: 70%;
   text-align: center;
-  padding: 80px;
 }
 
 .message {
-  font-size: 64px;
-  line-height: 1.3;
-  max-width: 80%;
+  font-size: 56px;
+  line-height: 1.4;
   white-space: pre-line;
 }
 
-/* ===== BOTTOM ===== */
-.bottom-left {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  font-size: 36px;
+/* ===== FOOTER ===== */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 18px 30px;
+  background: #ffffff;
+  border-top: 3px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time {
+  font-size: 32px;
   font-weight: bold;
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
-
-.bottom-right select {
+.pc-select select {
   font-size: 18px;
-  padding: 10px;
-  background: #111827;
-  color: white;
-  border: 1px solid #333;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
 }
 </style>
 </head>
 
 <body>
 
-<div class="screen">
+<div class="header">
+  <img src="https://UPLOAD_TON_LOGO_TRIGANO_ICI" alt="Trigano">
+  <div class="date" id="date"></div>
+</div>
 
-  <!-- LOGO -->
-  <div class="top-left">
-    <img src="https://UPLOAD_TON_LOGO_TRIGANO_ICI" alt="Trigano">
-  </div>
-
-  <!-- DATE -->
-  <div class="top-right" id="date"></div>
-
-  <!-- MESSAGE -->
-  <div class="center">
+<div class="main">
+  <div class="message-box">
     <div class="message" id="message">Chargement…</div>
   </div>
+</div>
 
-  <!-- HEURE -->
-  <div class="bottom-left" id="time"></div>
-
-  <!-- SELECT PC -->
-  <div class="bottom-right">
+<div class="footer">
+  <div class="time" id="time"></div>
+  <div class="pc-select">
     <select id="pcSelect"></select>
   </div>
-
 </div>
 
 <script>
-/* ================= CONFIG ================= */
+/* ========= CONFIG ========= */
 const SHEET_ID = "1rqtagt5yFWq7CCvMymb0ZPhnvoBoFc2KO3TChLhHmh0";
-const SHEET_INDEX = 1; // feuille 1
-const REFRESH_MS = 60000; // 1 min
+const SHEET_INDEX = 1;
+const REFRESH_MS = 60000;
 
-/* ================= ELEMENTS ================= */
-const messageEl = document.getElementById("message");
-const pcSelect = document.getElementById("pcSelect");
-
-/* ================= DATE / HEURE ================= */
+/* ========= CLOCK ========= */
 function updateClock() {
   const now = new Date();
-
   document.getElementById("time").textContent =
     now.toLocaleTimeString("fr-FR");
-
   document.getElementById("date").textContent =
     now.toLocaleDateString("fr-FR", {
       weekday: "long",
@@ -139,7 +125,9 @@ function updateClock() {
 setInterval(updateClock, 1000);
 updateClock();
 
-/* ================= GOOGLE SHEET ================= */
+/* ========= SHEET ========= */
+const messageEl = document.getElementById("message");
+const pcSelect = document.getElementById("pcSelect");
 let rows = [];
 
 async function loadSheet() {
@@ -160,25 +148,23 @@ async function loadSheet() {
       pcSelect.value = rows[0].id;
       updateMessage();
     }
-  } catch (e) {
-    messageEl.textContent = "Erreur de connexion";
+  } catch {
+    messageEl.textContent = "Connexion impossible";
   }
 }
 
 function updateMessage() {
   const id = pcSelect.value;
   const row = rows.find(r => r.id === id);
-  messageEl.textContent = row && row.message
-    ? row.message
-    : "—";
+  messageEl.textContent = row?.message || "—";
 }
 
 pcSelect.addEventListener("change", updateMessage);
 
-/* ================= INIT ================= */
 loadSheet();
 setInterval(loadSheet, REFRESH_MS);
 </script>
 
 </body>
 </html>
+
