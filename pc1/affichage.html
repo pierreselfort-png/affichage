@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Affichage Informations</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin: 0;
+  background: #0b0f14;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ===== LAYOUT ===== */
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* ===== TOP ===== */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.top-left img {
+  height: 60px;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  opacity: 0.85;
+}
+
+/* ===== CENTER MESSAGE ===== */
+.center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+}
+
+.message {
+  font-size: 64px;
+  line-height: 1.3;
+  max-width: 80%;
+  white-space: pre-line;
+}
+
+/* ===== BOTTOM ===== */
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bottom-right select {
+  font-size: 18px;
+  padding: 10px;
+  background: #111827;
+  color: white;
+  border: 1px solid #333;
+}
+</style>
+</head>
+
+<body>
+
+<div class="screen">
+
+  <!-- LOGO -->
+  <div class="top-left">
+    <img src="https://UPLOAD_TON_LOGO_TRIGANO_ICI" alt="Trigano">
+  </div>
+
+  <!-- DATE -->
+  <div class="top-right" id="date"></div>
+
+  <!-- MESSAGE -->
+  <div class="center">
+    <div class="message" id="message">Chargement…</div>
+  </div>
+
+  <!-- HEURE -->
+  <div class="bottom-left" id="time"></div>
+
+  <!-- SELECT PC -->
+  <div class="bottom-right">
+    <select id="pcSelect"></select>
+  </div>
+
+</div>
+
+<script>
+/* ================= CONFIG ================= */
+const SHEET_ID = "1rqtagt5yFWq7CCvMymb0ZPhnvoBoFc2KO3TChLhHmh0";
+const SHEET_INDEX = 1; // feuille 1
+const REFRESH_MS = 60000; // 1 min
+
+/* ================= ELEMENTS ================= */
+const messageEl = document.getElementById("message");
+const pcSelect = document.getElementById("pcSelect");
+
+/* ================= DATE / HEURE ================= */
+function updateClock() {
+  const now = new Date();
+
+  document.getElementById("time").textContent =
+    now.toLocaleTimeString("fr-FR");
+
+  document.getElementById("date").textContent =
+    now.toLocaleDateString("fr-FR", {
+      weekday: "long",
+      day: "2-digit",
+      month: "long",
+      year: "numeric"
+    });
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+/* ================= GOOGLE SHEET ================= */
+let rows = [];
+
+async function loadSheet() {
+  try {
+    const url = `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_INDEX}`;
+    const r = await fetch(url, { cache: "no-store" });
+    rows = await r.json();
+
+    pcSelect.innerHTML = "";
+    rows.forEach(r => {
+      const opt = document.createElement("option");
+      opt.value = r.id;
+      opt.textContent = r.titre || r.id;
+      pcSelect.appendChild(opt);
+    });
+
+    if (rows.length > 0) {
+      pcSelect.value = rows[0].id;
+      updateMessage();
+    }
+  } catch (e) {
+    messageEl.textContent = "Erreur de connexion";
+  }
+}
+
+function updateMessage() {
+  const id = pcSelect.value;
+  const row = rows.find(r => r.id === id);
+  messageEl.textContent = row && row.message
+    ? row.message
+    : "—";
+}
+
+pcSelect.addEventListener("change", updateMessage);
+
+/* ================= INIT ================= */
+loadSheet();
+setInterval(loadSheet, REFRESH_MS);
+</script>
+
+</body>
+</html>
