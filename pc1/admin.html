@@ -1,296 +1,249 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Pilotage écrans - Chef d’atelier</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Admin – Pilotage écrans</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0b0f14;
-      color: #fff;
-      padding: 40px;
-    }
-    .card {
-      max-width: 820px;
-      margin: auto;
-      background: #111827;
-      padding: 28px;
-      border-radius: 14px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-    }
-    h2, h3 { margin: 0 0 14px; }
-    .muted { opacity: .75; }
-    label { display: block; margin-top: 14px; font-size: 14px; opacity: .85; }
-    select, textarea, input, button {
-      width: 100%;
-      margin-top: 6px;
-      padding: 10px 12px;
-      font-size: 16px;
-      border-radius: 10px;
-      border: 1px solid #2b3340;
-      background: #0b1220;
-      color: #fff;
-      box-sizing: border-box;
-    }
-    textarea { resize: vertical; min-height: 110px; }
-    .row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-    .btn {
-      margin-top: 16px;
-      background: #2563eb;
-      border: none;
-      cursor: pointer;
-      font-weight: 700;
-    }
-    .btn:hover { filter: brightness(1.07); }
-    .btn.secondary {
-      background: #1f2937;
-      border: 1px solid #2b3340;
-      font-weight: 600;
-    }
-    .status {
-      margin-top: 14px;
-      padding: 10px 12px;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 10px;
-      min-height: 22px;
-      white-space: pre-line;
-    }
-    hr {
-      margin: 26px 0;
-      border: none;
-      border-top: 1px solid rgba(255,255,255,0.12);
-    }
-    .pill {
-      display: inline-block;
-      padding: 3px 10px;
-      border-radius: 999px;
-      background: rgba(37, 99, 235, 0.15);
-      border: 1px solid rgba(37, 99, 235, 0.35);
-      color: #cfe0ff;
-      font-size: 12px;
-      margin-left: 8px;
-    }
-  </style>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0f14;
+  color: #ffffff;
+  padding: 40px;
+}
+
+.card {
+  max-width: 900px;
+  margin: auto;
+  background: #111827;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+h2, h3 { margin-top: 0; }
+
+label {
+  display: block;
+  margin-top: 14px;
+  font-size: 14px;
+  opacity: .85;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 16px;
+  background: #020617;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+textarea { resize: vertical; }
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btn {
+  margin-top: 18px;
+  padding: 12px;
+  background: #2563eb;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background: #1f2937;
+}
+
+.status {
+  margin-top: 14px;
+  padding: 10px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  white-space: pre-line;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+</style>
 </head>
 
 <body>
-  <div class="card">
-    <h2>Interface Chef d’atelier <span class="pill">Google Sheet</span></h2>
-    <div class="muted">Sélectionne un écran, modifie le message / emplacement, ou ajoute un nouvel écran.</div>
 
-    <hr>
+<div class="card">
+  <h2>Interface Admin – Écrans</h2>
+  <p style="opacity:.7">
+    Modification des messages (carrousel) et du délai d’affichage.
+  </p>
 
-    <!-- ===== SECTION MODIFICATION ===== -->
-    <h3>Modifier un écran</h3>
+  <!-- ===== MODIFIER ===== -->
+  <h3>Modifier un écran</h3>
 
-    <label>Écran (liste auto depuis le Sheet)</label>
-    <select id="screen"></select>
+  <label>Écran</label>
+  <select id="pcSelect"></select>
 
-    <div class="row">
-      <div>
-        <label>Titre (lecture seule)</label>
-        <input id="titre" disabled>
-      </div>
-      <div>
-        <label>Emplacement</label>
-        <input id="emplacement" placeholder="Ex: Ligne 1 / Atelier / Stockage…">
-      </div>
+  <div class="row">
+    <div>
+      <label>Titre</label>
+      <input id="titre" disabled>
     </div>
-
-    <label>Message (INFO / CONSIGNES)</label>
-    <textarea id="message" placeholder="Tape le message à afficher…"></textarea>
-
-    <div class="row">
-      <button class="btn" onclick="updateSelected()">Enregistrer</button>
-      <button class="btn secondary" onclick="reloadData()">Recharger la liste</button>
+    <div>
+      <label>Emplacement</label>
+      <input id="emplacement">
     </div>
-
-    <div class="status" id="status"></div>
-
-    <hr>
-
-    <!-- ===== SECTION AJOUT ===== -->
-    <h3>Ajouter un nouvel écran</h3>
-
-    <div class="row">
-      <div>
-        <label>ID (unique) — ex: pc6</label>
-        <input id="newId" placeholder="pc6">
-      </div>
-      <div>
-        <label>Titre — ex: PC 6</label>
-        <input id="newTitle" placeholder="PC 6">
-      </div>
-    </div>
-
-    <div class="row">
-      <div>
-        <label>Emplacement</label>
-        <input id="newEmplacement" placeholder="Ex: Ligne 2">
-      </div>
-      <div>
-        <label>Message (optionnel)</label>
-        <input id="newMessage" placeholder="Message de départ…">
-      </div>
-    </div>
-
-    <button class="btn" onclick="addNew()">Ajouter l’écran</button>
-
-    <div class="status" id="statusAdd"></div>
   </div>
 
-<script>
-/* ===================== A REMPLACER ===================== */
-const API_URL = "https://script.google.com/macros/s/AKfycby9qmzljKCOGFD7pLQDIpkt8K8-uUuJl_Yb_eX7mgmAvzOqRNjQKp3Kho_5yhhVwfmR/exec"; 
-/* ======================================================= */
+  <label>Message 1</label>
+  <textarea id="msg1" rows="2"></textarea>
 
-/* Elements */
-const screenSelect = document.getElementById("screen");
-const titreInput = document.getElementById("titre");
-const emplacementInput = document.getElementById("emplacement");
-const messageInput = document.getElementById("message");
+  <label>Message 2</label>
+  <textarea id="msg2" rows="2"></textarea>
+
+  <label>Message 3</label>
+  <textarea id="msg3" rows="2"></textarea>
+
+  <label>Délai (secondes)</label>
+  <input type="number" id="delay" min="1">
+
+  <button class="btn" onclick="save()">Enregistrer</button>
+  <button class="btn secondary" onclick="reload()">Recharger</button>
+
+  <div class="status" id="status"></div>
+
+  <hr>
+
+  <!-- ===== AJOUT ===== -->
+  <h3>Ajouter un écran</h3>
+
+  <div class="row">
+    <div>
+      <label>ID (unique)</label>
+      <input id="newId" placeholder="pc6">
+    </div>
+    <div>
+      <label>Titre</label>
+      <input id="newTitle" placeholder="PC 6">
+    </div>
+  </div>
+
+  <label>Emplacement</label>
+  <input id="newEmplacement">
+
+  <label>Message 1</label>
+  <input id="newMsg1">
+
+  <label>Délai (secondes)</label>
+  <input type="number" id="newDelay" value="15">
+
+  <button class="btn" onclick="add()">Ajouter l’écran</button>
+
+  <div class="status" id="statusAdd"></div>
+</div>
+
+<script>
+/* ================= CONFIG ================= */
+const API_URL = "COLLE_ICI_TON_URL_APPS_SCRIPT";
+/* ========================================== */
+
+const pcSelect = document.getElementById("pcSelect");
 const status = document.getElementById("status");
 const statusAdd = document.getElementById("statusAdd");
 
-/* Cache local des lignes du sheet */
-let rowsCache = [];
+let rows = [];
 
-/* Helpers */
-function setStatus(el, txt) { el.textContent = txt || ""; }
-function normId(s) { return (s || "").trim(); }
+/* ===== LOAD ===== */
+async function reload() {
+  status.textContent = "Chargement…";
+  const r = await fetch(API_URL, { cache: "no-store" });
+  rows = await r.json();
 
-/* Charger la liste des écrans depuis l’API */
-async function reloadData() {
-  setStatus(status, "Chargement…");
-  try {
-    const r = await fetch(API_URL, { cache: "no-store" });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    rowsCache = await r.json();
+  pcSelect.innerHTML = "";
+  rows.forEach(r => {
+    const o = document.createElement("option");
+    o.value = r.id;
+    o.textContent = r.titre || r.id;
+    pcSelect.appendChild(o);
+  });
 
-    // Filtrer lignes valides
-    rowsCache = (Array.isArray(rowsCache) ? rowsCache : []).filter(x => x && x.id);
-
-    // Remplir le select
-    screenSelect.innerHTML = "";
-    rowsCache.forEach(row => {
-      const opt = document.createElement("option");
-      opt.value = row.id;
-      opt.textContent = (row.titre && String(row.titre).trim()) ? row.titre : row.id;
-      screenSelect.appendChild(opt);
-    });
-
-    if (rowsCache.length === 0) {
-      setStatus(status, "Aucun écran trouvé. Vérifie le Sheet: colonnes id/titre/message/emplacement.");
-      titreInput.value = "";
-      emplacementInput.value = "";
-      messageInput.value = "";
-      return;
-    }
-
-    // Sélection 1er élément et remplir champs
-    screenSelect.value = rowsCache[0].id;
-    loadSelectedIntoForm();
-    setStatus(status, "Liste chargée ✔");
-  } catch (e) {
-    setStatus(status, "Erreur de chargement.\nVérifie API_URL et le déploiement Apps Script.\n" + e);
+  if (rows.length) {
+    pcSelect.value = rows[0].id;
+    fillForm();
   }
+
+  status.textContent = "Chargé ✔";
 }
 
-/* Charger le PC sélectionné dans le formulaire */
-function loadSelectedIntoForm() {
-  const id = screenSelect.value;
-  const row = rowsCache.find(r => r.id === id);
+function fillForm() {
+  const r = rows.find(x => x.id === pcSelect.value);
+  if (!r) return;
 
-  titreInput.value = row?.titre ?? "";
-  emplacementInput.value = row?.emplacement ?? "";
-  messageInput.value = row?.message ?? "";
+  titre.value = r.titre || "";
+  emplacement.value = r.emplacement || "";
+  msg1.value = r.msg1 || "";
+  msg2.value = r.msg2 || "";
+  msg3.value = r.msg3 || "";
+  delay.value = r.delay || 15;
 }
 
-/* Mettre à jour le message + emplacement du PC sélectionné */
-async function updateSelected() {
-  const id = normId(screenSelect.value);
-  const message = messageInput.value ?? "";
-  const emplacement = emplacementInput.value ?? "";
+/* ===== SAVE ===== */
+async function save() {
+  const id = pcSelect.value;
 
-  if (!id) { setStatus(status, "ID invalide."); return; }
+  const payload = {
+    action: "update",
+    id,
+    emplacement: emplacement.value,
+    msg1: msg1.value,
+    msg2: msg2.value,
+    msg3: msg3.value,
+    delay: delay.value
+  };
 
-  setStatus(status, "Envoi…");
-  try {
-    const r = await fetch(API_URL, {
-      method: "POST",
-      body: JSON.stringify({
-        action: "update",
-        id,
-        message,
-        emplacement
-      })
-    });
+  const r = await fetch(API_URL, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
 
-    const txt = await r.text();
-    setStatus(status, txt === "UPDATED" ? "Mis à jour ✔" : ("Réponse: " + txt));
-
-    // mettre à jour le cache local
-    const idx = rowsCache.findIndex(x => x.id === id);
-    if (idx >= 0) {
-      rowsCache[idx].message = message;
-      rowsCache[idx].emplacement = emplacement;
-    }
-  } catch (e) {
-    setStatus(status, "Erreur réseau: " + e);
-  }
+  status.textContent = await r.text();
 }
 
-/* Ajouter un nouvel écran */
-async function addNew() {
-  const id = normId(document.getElementById("newId").value);
-  const titre = (document.getElementById("newTitle").value || "").trim();
-  const emplacement = (document.getElementById("newEmplacement").value || "").trim();
-  const message = (document.getElementById("newMessage").value || "").trim();
+/* ===== ADD ===== */
+async function add() {
+  const payload = {
+    action: "add",
+    id: newId.value.trim(),
+    titre: newTitle.value,
+    emplacement: newEmplacement.value,
+    msg1: newMsg1.value,
+    msg2: "",
+    msg3: "",
+    delay: newDelay.value || 15
+  };
 
-  if (!id) { setStatus(statusAdd, "ID obligatoire (ex: pc6)."); return; }
-  if (rowsCache.some(r => r.id === id)) { setStatus(statusAdd, "Cet ID existe déjà."); return; }
+  const r = await fetch(API_URL, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
 
-  setStatus(statusAdd, "Ajout…");
-  try {
-    const r = await fetch(API_URL, {
-      method: "POST",
-      body: JSON.stringify({
-        action: "add",
-        id,
-        titre,
-        message,
-        emplacement
-      })
-    });
-
-    const txt = await r.text();
-    setStatus(statusAdd, txt === "ADDED" ? "Ajouté ✔" : ("Réponse: " + txt));
-
-    // reset form
-    document.getElementById("newId").value = "";
-    document.getElementById("newTitle").value = "";
-    document.getElementById("newEmplacement").value = "";
-    document.getElementById("newMessage").value = "";
-
-    // reload list
-    await reloadData();
-  } catch (e) {
-    setStatus(statusAdd, "Erreur réseau: " + e);
-  }
+  statusAdd.textContent = await r.text();
+  reload();
 }
 
-/* Events */
-screenSelect.addEventListener("change", loadSelectedIntoForm);
+pcSelect.addEventListener("change", fillForm);
 
-/* Init */
-reloadData();
+/* INIT */
+reload();
 </script>
 
 </body>
