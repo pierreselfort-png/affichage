@@ -216,8 +216,12 @@ body {
 
     <label>Réalisé</label>
     <input type="number" id="adminDone">
+    
+    <label>Source des consignes (PC Sheet)</label>
+    <select id="adminPcSelect"></select>
 
-    <label>Message info (local)</label>
+
+    <label>Message info (local – override)</label>
     <textarea id="adminInfo" rows="4"></textarea>
 
     <div class="admin-actions">
@@ -264,51 +268,101 @@ body {
 </div>
 
 <script>
-/* ================= CONFIG GOOGLE SHEET ================= */
+/* ================= CONFIG ================= */
 const SHEET_ID = "1rqtagt5yFWq7CCvMymb0ZPhnvoBoFc2KO3TChLhHmh0";
-const PC_ID = "pc1";              // ⚠️ changer en pc2, pc3…
-const SHEET_REFRESH = 60000;      // 1 minute
-
-/* ================= LOCAL STATE ================= */
+const SHEET_REFRESH = 60000;
 const KEY = "ligne_prod_final";
 
+/* ================= STATE ================= */
 let state = {
   taktMinutes: 180,
   target: 10,
   done: 0,
-  info: "",
   paused: false,
   startTime: Date.now(),
-  pausedAt: null
+  pausedAt: null,
+
+  // NOUVEAU
+  sourcePcId: "pc1",
+  messages: [],
+  delay: 15,
+  msgIndex: 0
 };
 
+let carouselTimer = null;
+
+/* ================= STORAGE ================= */
 function load() {
   const s = localStorage.getItem(KEY);
-  if (s) state = JSON.parse(s);
+  if (s) state = { ...state, ...JSON.parse(s) };
 }
 
 function save() {
   localStorage.setItem(KEY, JSON.stringify(state));
 }
 
-/* ================= GOOGLE SHEET SYNC ================= */
+/* ================= GOOGLE SHEET ================= */
 async function fetchRemoteInfo() {
   try {
     const url = `https://opensheet.elk.sh/${SHEET_ID}/1`;
     const r = await fetch(url, { cache: "no-store" });
     const rows = await r.json();
 
-    const row = rows.find(r => r.id === PC_ID);
-    if (!row || !row.message) return;
+    // remplir la liste des PC dans l’admin
+    adminPcSelect.innerHTML = "";
+    rows.forEach(r => {
+      const opt = document.createElement("option");
+      opt.value = r.id;
+      opt.textContent = r.titre || r.id;
+      adminPcSelect.appendChild(opt);
+    });
 
-    if (state.info !== row.message) {
-      state.info = row.message;
-      save();
-      render();
+    if (rows.some(r => r.id === state.sourcePcId)) {
+      adminPcSelect.value = state.sourcePcId;
     }
-  } catch (e) {
-    // silence : fallback local
+
+    const row = rows.find(r => r.id === state.sourcePcId);
+    if (!row) return;
+
+    const newMessages = [row.msg1, row.msg2, row.msg3].filter(m => m && m.trim());
+    const newDelay = parseInt(row.delay) || 15;
+
+    if (
+      JSON.stringify(newMessages) !== JSON.stringify(state.messages) ||
+      newDelay !== state.delay
+    ) {
+      state.messages = newMessages;
+      state.delay = newDelay;
+      state.msgIndex = 0;
+      startCarousel();
+      save();
+    }
+  } catch {
+    // fallback local silencieux
   }
+}
+
+/* ================= CAROUSEL ================= */
+function startCarousel() {
+  if (carouselTimer) clearInterval(carouselTimer);
+  showMessage();
+
+  if (state.messages.length > 1) {
+    carouselTimer = setInterval(nextMessage, state.delay * 1000);
+  }
+}
+
+function showMessage() {
+  infoText.style.opacity = 0;
+  setTimeout(() => {
+    infoText.textContent = state.messages[state.msgIndex] || "—";
+    infoText.style.opacity = 1;
+  }, 300);
+}
+
+function nextMessage() {
+  state.msgIndex = (state.msgIndex + 1) % state.messages.length;
+  showMessage();
 }
 
 /* ================= TIMER ================= */
@@ -323,13 +377,13 @@ setInterval(() => {
   if (state.paused) return;
   const elapsed = Math.floor((Date.now() - state.startTime) / 1000);
   const remaining = state.taktMinutes * 60 - elapsed;
-  const el = document.getElementById("timeLeft");
+  const el = timeLeft;
 
   el.textContent = remaining >= 0 ? format(remaining) : "-" + format(Math.abs(remaining));
   el.classList.toggle("alert", remaining < 0);
 }, 1000);
 
-/* ================= ACTIONS ================= */
+/* ================= ACTIONS PROD ================= */
 function togglePause() {
   if (!state.paused) {
     state.pausedAt = Date.now();
@@ -357,24 +411,14 @@ function resetTimer() {
 
 /* ================= RENDER ================= */
 function render() {
-  document.getElementById("taktMinutes").textContent = state.taktMinutes;
-  document.getElementById("target").textContent = state.target;
-  document.getElementById("done").textContent = state.done;
-  document.getElementById("remaining").textContent = state.target - state.done;
-  document.getElementById("infoText").textContent = state.info || "—";
+  taktMinutes.textContent = state.taktMinutes;
+  target.textContent = state.target;
+  done.textContent = state.done;
+  remaining.textContent = state.target - state.done;
 
-  const pauseIndicator = document.getElementById("pauseIndicator");
-  const pauseBtn = document.getElementById("pauseBtn");
-
-  if (state.paused) {
-    pauseIndicator.style.display = "block";
-    document.body.classList.add("paused");
-    pauseBtn.textContent = "▶ Reprendre";
-  } else {
-    pauseIndicator.style.display = "none";
-    document.body.classList.remove("paused");
-    pauseBtn.textContent = "⏸ Pause";
-  }
+  pauseIndicator.style.display = state.paused ? "block" : "none";
+  document.body.classList.toggle("paused", state.paused);
+  pauseBtn.textContent = state.paused ? "▶ Reprendre" : "⏸ Pause";
 }
 
 /* ================= ADMIN ================= */
@@ -383,7 +427,7 @@ function openAdmin() {
   adminTakt.value = state.taktMinutes;
   adminTarget.value = state.target;
   adminDone.value = state.done;
-  adminInfo.value = state.info;
+  adminPcSelect.value = state.sourcePcId;
 }
 
 function closeAdmin() {
@@ -394,9 +438,9 @@ function saveAdmin() {
   state.taktMinutes = +adminTakt.value;
   state.target = +adminTarget.value;
   state.done = +adminDone.value;
-  state.info = adminInfo.value;
+  state.sourcePcId = adminPcSelect.value;
   save();
-  render();
+  fetchRemoteInfo();
   closeAdmin();
 }
 
@@ -404,8 +448,10 @@ function saveAdmin() {
 load();
 render();
 fetchRemoteInfo();
+startCarousel();
 setInterval(fetchRemoteInfo, SHEET_REFRESH);
 </script>
+
 
 </body>
 </html>
