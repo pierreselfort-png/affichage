@@ -135,7 +135,7 @@ select {
 
 <script>
 /* ================= CONFIG ================= */
-const API_URL = "COLLE_ICI_TON_URL_APPS_SCRIPT";
+const API_URL = "https://script.google.com/macros/s/AKfycbzmEt8XciNrp5e2jFIAPJYTsOOTKTGMCmj8iURdTt5_8F8cd-fH8WTNT07N953K_dUY/exec";
 const REFRESH_SHEET = 15000; // ms
 /* ========================================== */
 
