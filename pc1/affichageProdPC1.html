@@ -349,6 +349,7 @@ function exportCycleCsv() {
   link.download = "cycle-log.csv";
   link.click();
   URL.revokeObjectURL(url);
+  saveCycleLog([]);
 }
 /* ================= GOOGLE SHEET ================= */
 async function fetchRemoteInfo() {
