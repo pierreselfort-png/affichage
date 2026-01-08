@@ -272,7 +272,7 @@ body {
 const SHEET_ID = "1rqtagt5yFWq7CCvMymb0ZPhnvoBoFc2KO3TChLhHmh0";
 const SHEET_REFRESH = 60000;
 const KEY = "ligne_prod_final";
-
+const CYCLE_LOG_KEY = "ligne_prod_cycle_log";
 /* ================= STATE ================= */
 let state = {
   taktMinutes: 180,
@@ -299,6 +299,32 @@ function load() {
 
 function save() {
   localStorage.setItem(KEY, JSON.stringify(state));
+}
+function loadCycleLog() {
+  const raw = localStorage.getItem(CYCLE_LOG_KEY);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveCycleLog(entries) {
+  localStorage.setItem(CYCLE_LOG_KEY, JSON.stringify(entries));
+}
+
+function recordCycle() {
+  const elapsedSec = Math.floor((Date.now() - state.startTime) / 1000);
+  const entries = loadCycleLog();
+  entries.push({
+    recordedAt: new Date().toISOString(),
+    initialTaktMinutes: state.taktMinutes,
+    elapsedSeconds: elapsedSec,
+    elapsedMinutes: +(elapsedSec / 60).toFixed(2)
+  });
+  saveCycleLog(entries);
 }
 
 /* ================= GOOGLE SHEET ================= */
