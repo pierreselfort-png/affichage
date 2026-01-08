@@ -241,6 +241,7 @@ body {
     <div class="admin-actions">
       <button onclick="togglePause()">Pause / Reprise</button>
       <button onclick="resetTimer()" class="danger">Reset timer</button>
+      <button onclick="exportCycleCsv()">Exporter CSV</button>
       <button onclick="saveAdmin()" class="close">Enregistrer</button>
       <button onclick="closeAdmin()">Fermer</button>
     </div>
@@ -294,6 +295,7 @@ const SHEET_REFRESH = 60000;      // 1 minute
 
 /* ================= LOCAL STATE ================= */
 const KEY = "ligne_prod_final";
+const CYCLE_LOG_KEY = "ligne_prod_cycle_log";
 
 let state = {
   taktMinutes: 180,
@@ -312,6 +314,57 @@ function load() {
 
 function save() {
   localStorage.setItem(KEY, JSON.stringify(state));
+}
+
+function loadCycleLog() {
+  const raw = localStorage.getItem(CYCLE_LOG_KEY);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveCycleLog(entries) {
+  localStorage.setItem(CYCLE_LOG_KEY, JSON.stringify(entries));
+}
+
+function recordCycle() {
+  const elapsedSec = Math.floor((Date.now() - state.startTime) / 1000);
+  const entries = loadCycleLog();
+  entries.push({
+    recordedAt: new Date().toISOString(),
+    initialTaktMinutes: state.taktMinutes,
+    elapsedSeconds: elapsedSec,
+    elapsedMinutes: +(elapsedSec / 60).toFixed(2)
+  });
+  saveCycleLog(entries);
+}
+
+function exportCycleCsv() {
+  const entries = loadCycleLog();
+  if (!entries.length) return;
+
+  const headers = [
+    "recordedAt",
+    "initialTaktMinutes",
+    "elapsedSeconds",
+    "elapsedMinutes"
+  ];
+  const rows = entries.map(entry =>
+    headers.map(key => JSON.stringify(entry[key] ?? "")).join(",")
+  );
+  const csv = [headers.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "cycle-log.csv";
+  link.click();
+  URL.revokeObjectURL(url);
+  saveCycleLog([]);
 }
 
 /* ================= CAROUSEL STATE (REMOTE) ================= */
@@ -448,6 +501,7 @@ function togglePause() {
 }
 
 function resetCycle() {
+  recordCycle();
   state.done += 1;
   state.startTime = Date.now();
   state.paused = false;
@@ -526,4 +580,3 @@ showInfo(state.info || "—");
 
 </body>
 </html>
-
