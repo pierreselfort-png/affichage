@@ -255,11 +255,11 @@ body {
   </div>
 
   <div class="bottom">
-    <div class="card">
-      <h2>OBJECTIF DU JOUR</h2>
-      <div class="big"><span id="done">0</span> / <span id="target">10</span></div>
-      <div class="small">Reste : <span id="remaining">10</span></div>
-    </div>
+   <div class="card">
+  <h2>HEURE ACTUELLE</h2>
+  <div class="big" id="currentClock">00:00:00</div>
+  <div class="small" id="currentDate">--/--/----</div>
+</div>
 
     <div class="card">
       <h2>INFO / CONSIGNES</h2>
@@ -501,6 +501,24 @@ render();
 fetchRemoteInfo();
 startCarousel();
 setInterval(fetchRemoteInfo, SHEET_REFRESH);
+  /* ================= HORLOGE TEMPS RÉEL ================= */
+function updateClock() {
+  const now = new Date();
+  
+  // Format Heure : 00:00:00
+  const h = String(now.getHours()).padStart(2, '0');
+  const m = String(now.getMinutes()).padStart(2, '0');
+  const s = String(now.getSeconds()).padStart(2, '0');
+  document.getElementById('currentClock').textContent = `${h}:${m}:${s}`;
+  
+  // Format Date : Jeudi 12 Octobre (ou JJ/MM/AAAA)
+  const options = { weekday: 'long', day: 'numeric', month: 'long' };
+  document.getElementById('currentDate').textContent = now.toLocaleDateString('fr-FR', options);
+}
+
+// Lancement et mise à jour toutes les secondes
+setInterval(updateClock, 1000);
+updateClock();
 </script>
 
 
